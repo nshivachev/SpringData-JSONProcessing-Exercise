@@ -1,9 +1,27 @@
 package com.softuni.productshop.services;
 
+import com.softuni.productshop.constants.Paths;
+import com.softuni.productshop.domain.dtos.CategoryImportDto;
+import com.softuni.productshop.domain.dtos.ProductImportDto;
+import com.softuni.productshop.domain.dtos.UserImportDto;
+import com.softuni.productshop.domain.entities.Category;
+import com.softuni.productshop.domain.entities.Product;
+import com.softuni.productshop.domain.entities.User;
 import com.softuni.productshop.repositories.CategoryRepository;
 import com.softuni.productshop.repositories.ProductRepository;
 import com.softuni.productshop.repositories.UserRepository;
 import org.springframework.stereotype.Service;
+
+import java.io.FileReader;
+import java.io.IOException;
+import java.math.BigDecimal;
+import java.util.*;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+import java.util.stream.LongStream;
+
+import static com.softuni.productshop.constants.Utils.GSON;
+import static com.softuni.productshop.constants.Utils.MODEL_MAPPER;
 
 @Service
 public class SeedServicesImpl implements SeedService {
@@ -18,17 +36,84 @@ public class SeedServicesImpl implements SeedService {
     }
 
     @Override
-    public void seedUsers() {
+    public void seedUsers() throws IOException {
+        if (userRepository.count() != 0) return;
 
+        final FileReader fileReader = new FileReader(Paths.USERS_JSON_PATH.toFile());
+
+        userRepository.saveAllAndFlush(
+                Arrays.stream(GSON.fromJson(fileReader, UserImportDto[].class))
+                        .map(userImportDto -> MODEL_MAPPER.map(userImportDto, User.class))
+                        .collect(Collectors.toList()));
+
+        fileReader.close();
     }
 
     @Override
-    public void seedProducts() {
+    public void seedProducts() throws IOException {
+        if (productRepository.count() != 0) return;
 
+        final FileReader fileReader = new FileReader(Paths.PRODUCTS_JSON_PATH.toFile());
+
+        productRepository.saveAllAndFlush(Arrays.stream(GSON.fromJson(fileReader, ProductImportDto[].class))
+                .map(productImportDto -> MODEL_MAPPER.map(productImportDto, Product.class))
+                .map(this::setRandomSeller)
+                .map(this::setRandomBuyer)
+                .map(this::setRandomCategories)
+                .toList());
+
+        fileReader.close();
     }
 
     @Override
-    public void seedCategories() {
+    public void seedCategories() throws IOException {
+        if (categoryRepository.count() != 0) return;
 
+        final FileReader fileReader = new FileReader(Paths.CATEGORIES_JSON_PATH.toFile());
+
+        categoryRepository.saveAllAndFlush(
+                Arrays.stream(GSON.fromJson(fileReader, CategoryImportDto[].class))
+                        .map(categoryImportDto -> MODEL_MAPPER.map(categoryImportDto, Category.class))
+                        .collect(Collectors.toList()));
+
+        fileReader.close();
+    }
+
+    private Product setRandomCategories(Product product) {
+        final Random random = new Random();
+
+        final long numberOfCategories = random.nextLong(this.categoryRepository.count());
+
+        final Set<Category> categories = new HashSet<>();
+
+        LongStream.range(0, numberOfCategories)
+                .forEach(number ->
+                        categories.add(categoryRepository.getRandomEntity().orElseThrow(NoSuchElementException::new)));
+
+        product.setCategories(categories);
+
+        return product;
+    }
+
+    private Product setRandomBuyer(Product product) {
+        if (product.getPrice().compareTo(BigDecimal.valueOf(700L)) > 0) {
+            User buyer = userRepository.getRandomEntity().orElseThrow(NoSuchElementException::new);
+
+            while (buyer.equals(product.getSeller())) {
+                buyer = userRepository.getRandomEntity().orElseThrow(NoSuchElementException::new);
+            }
+
+            product.setBuyer(buyer);
+        }
+
+        return product;
+    }
+
+    private Product setRandomSeller(Product product) {
+        final User seller = userRepository.getRandomEntity().orElseThrow(NoSuchElementException::new);
+
+        product.setSeller(seller);
+
+        return product;
     }
 }

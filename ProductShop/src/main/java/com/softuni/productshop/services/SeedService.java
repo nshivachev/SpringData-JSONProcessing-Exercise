@@ -1,15 +1,17 @@
 package com.softuni.productshop.services;
 
+import java.io.IOException;
+
 public interface SeedService {
-    void seedUsers();
+    void seedUsers() throws IOException;
 
-    void seedProducts();
+    void seedProducts() throws IOException;
 
-    void seedCategories();
+    void seedCategories() throws IOException;
 
-    default void seedAll() {
+    default void seedAll() throws IOException {
         seedUsers();
-        seedProducts();
         seedCategories();
+        seedProducts();
     }
 }
