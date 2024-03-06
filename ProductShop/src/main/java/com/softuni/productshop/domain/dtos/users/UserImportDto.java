@@ -1,4 +1,4 @@
-package com.softuni.productshop.domain.dtos;
+package com.softuni.productshop.domain.dtos.users;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

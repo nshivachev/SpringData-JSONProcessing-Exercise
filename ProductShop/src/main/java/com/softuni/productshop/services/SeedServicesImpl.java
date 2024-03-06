@@ -1,15 +1,16 @@
 package com.softuni.productshop.services;
 
 import com.softuni.productshop.constants.Paths;
-import com.softuni.productshop.domain.dtos.CategoryImportDto;
-import com.softuni.productshop.domain.dtos.ProductImportDto;
-import com.softuni.productshop.domain.dtos.UserImportDto;
+import com.softuni.productshop.domain.dtos.categories.CategoryImportDto;
+import com.softuni.productshop.domain.dtos.products.ProductImportDto;
+import com.softuni.productshop.domain.dtos.users.UserImportDto;
 import com.softuni.productshop.domain.entities.Category;
 import com.softuni.productshop.domain.entities.Product;
 import com.softuni.productshop.domain.entities.User;
 import com.softuni.productshop.repositories.CategoryRepository;
 import com.softuni.productshop.repositories.ProductRepository;
 import com.softuni.productshop.repositories.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.io.FileReader;
@@ -17,7 +18,6 @@ import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.*;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 
 import static com.softuni.productshop.constants.Utils.GSON;
@@ -29,6 +29,7 @@ public class SeedServicesImpl implements SeedService {
     private final ProductRepository productRepository;
     private final CategoryRepository categoryRepository;
 
+    @Autowired
     public SeedServicesImpl(UserRepository userRepository, ProductRepository productRepository, CategoryRepository categoryRepository) {
         this.userRepository = userRepository;
         this.productRepository = productRepository;
