@@ -20,6 +20,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.LongStream;
 
+import static com.softuni.productshop.constants.Paths.*;
 import static com.softuni.productshop.constants.Utils.GSON;
 import static com.softuni.productshop.constants.Utils.MODEL_MAPPER;
 
@@ -40,7 +41,7 @@ public class SeedServicesImpl implements SeedService {
     public void seedUsers() throws IOException {
         if (userRepository.count() != 0) return;
 
-        final FileReader fileReader = new FileReader(Paths.USERS_JSON_PATH.toFile());
+        final FileReader fileReader = new FileReader(USERS_JSON_PATH.toFile());
 
         userRepository.saveAllAndFlush(
                 Arrays.stream(GSON.fromJson(fileReader, ImportUserDto[].class))
@@ -54,7 +55,7 @@ public class SeedServicesImpl implements SeedService {
     public void seedProducts() throws IOException {
         if (productRepository.count() != 0) return;
 
-        final FileReader fileReader = new FileReader(Paths.PRODUCTS_JSON_PATH.toFile());
+        final FileReader fileReader = new FileReader(PRODUCTS_JSON_PATH.toFile());
 
         productRepository.saveAllAndFlush(Arrays.stream(GSON.fromJson(fileReader, ImportProductDto[].class))
                 .map(productDto -> MODEL_MAPPER.map(productDto, Product.class))
@@ -70,7 +71,7 @@ public class SeedServicesImpl implements SeedService {
     public void seedCategories() throws IOException {
         if (categoryRepository.count() != 0) return;
 
-        final FileReader fileReader = new FileReader(Paths.CATEGORIES_JSON_PATH.toFile());
+        final FileReader fileReader = new FileReader(CATEGORIES_JSON_PATH.toFile());
 
         categoryRepository.saveAllAndFlush(
                 Arrays.stream(GSON.fromJson(fileReader, CategoryDto[].class))

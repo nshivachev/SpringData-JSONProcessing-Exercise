@@ -12,6 +12,7 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @AllArgsConstructor
 public class CategoryProductSummaryDto {
+    //    @SerializedName("some_name")
     private String name;
     private Long productsCount;
     private Double averagePrice;

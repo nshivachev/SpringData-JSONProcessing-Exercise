@@ -1,6 +1,6 @@
 package com.softuni.productshop.domain.dtos.users;
 
-import com.softuni.productshop.domain.dtos.products.ProductWithNamePriceDto;
+import com.softuni.productshop.domain.dtos.products.ProductWithNamePriceBuyerDto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -12,8 +12,8 @@ import java.util.Set;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class UserWithSellingProductsDto {
+public class UserWithSellingProductsWithBuyerDto {
     private String firstName;
     private String lastName;
-    private Set<ProductWithNamePriceDto> sellingProducts;
+    private Set<ProductWithNamePriceBuyerDto> sellingProducts;
 }

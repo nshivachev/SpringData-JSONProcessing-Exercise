@@ -31,8 +31,9 @@ public class CommandRunner implements CommandLineRunner {
     public void run(String... args) throws Exception {
         seedService.seedAll();
 
-        productService.selectAllInPriceRange(BigDecimal.valueOf(500L), BigDecimal.valueOf(1000L));
-        userService.findAllBySellingProductsBuyerNotNull();
+        productService.selectAllProductsInPriceRange(BigDecimal.valueOf(500L), BigDecimal.valueOf(1000L));
+        userService.findAllUsersBySellingProductsWithBuyer();
         categoryService.getCategorySummary();
+        userService.findAllUsersBySellingProductsWithBuyerOrderByProductCount();
     }
 }

@@ -1,7 +1,6 @@
 package com.softuni.productshop.services;
 
-import com.softuni.productshop.domain.dtos.products.ImportProductDto;
-import com.softuni.productshop.domain.dtos.products.ProductWithSellerDto;
+import com.softuni.productshop.domain.dtos.products.ProductWithNamePriceSellerDto;
 import com.softuni.productshop.repositories.ProductRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,8 +24,8 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     @Transactional
-    public List<ProductWithSellerDto> selectAllInPriceRange(BigDecimal startPrice, BigDecimal endPrice) throws IOException {
-        final List<ProductWithSellerDto> products = productRepository.findAllInPriceRangeBetween(startPrice, endPrice);
+    public List<ProductWithNamePriceSellerDto> selectAllProductsInPriceRange(BigDecimal startPrice, BigDecimal endPrice) throws IOException {
+        final List<ProductWithNamePriceSellerDto> products = productRepository.findAllInPriceRangeBetween(startPrice, endPrice);
 
         writeJsonIntoFile(products, PRODUCTS_WITH_NO_BUYER_IN_RANGE_JSON_PATH);
 
