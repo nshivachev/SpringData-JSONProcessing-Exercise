@@ -26,11 +26,7 @@ public class ProductServiceImpl implements ProductService {
     @Override
     @Transactional
     public List<ProductWithSellerDto> selectAllInPriceRange(BigDecimal startPrice, BigDecimal endPrice) throws IOException {
-        final List<ProductWithSellerDto> products = productRepository
-                .findAllInPriceRangeBetween(startPrice, endPrice)
-                .stream()
-                .map(ImportProductDto::toProductWithSellerDto)
-                .toList();
+        final List<ProductWithSellerDto> products = productRepository.findAllInPriceRangeBetween(startPrice, endPrice);
 
         writeJsonIntoFile(products, PRODUCTS_WITH_NO_BUYER_IN_RANGE_JSON_PATH);
 
