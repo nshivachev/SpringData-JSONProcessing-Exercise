@@ -1,5 +1,6 @@
 package com.softuni.productshop;
 
+import com.softuni.productshop.services.CategoryService;
 import com.softuni.productshop.services.ProductService;
 import com.softuni.productshop.services.SeedService;
 import com.softuni.productshop.services.UserService;
@@ -15,12 +16,14 @@ public class CommandRunner implements CommandLineRunner {
     private final SeedService seedService;
     private final ProductService productService;
     private final UserService userService;
+    private final CategoryService categoryService;
 
     @Autowired
-    public CommandRunner(SeedService seedService, ProductService productService, UserService userService) {
+    public CommandRunner(SeedService seedService, ProductService productService, UserService userService, CategoryService categoryService) {
         this.seedService = seedService;
         this.productService = productService;
         this.userService = userService;
+        this.categoryService = categoryService;
     }
 
     @Override
@@ -30,5 +33,6 @@ public class CommandRunner implements CommandLineRunner {
 
         productService.selectAllInPriceRange(BigDecimal.valueOf(500L), BigDecimal.valueOf(1000L));
         userService.findAllBySellingProductsBuyerNotNull();
+        categoryService.getCategorySummary();
     }
 }
