@@ -1,9 +1,9 @@
 package com.softuni.productshop.services;
 
 import com.softuni.productshop.constants.Paths;
-import com.softuni.productshop.domain.dtos.categories.CategoryImportDto;
-import com.softuni.productshop.domain.dtos.products.ProductImportDto;
-import com.softuni.productshop.domain.dtos.users.UserImportDto;
+import com.softuni.productshop.domain.dtos.categories.CategoryDto;
+import com.softuni.productshop.domain.dtos.products.ImportProductDto;
+import com.softuni.productshop.domain.dtos.users.ImportUserDto;
 import com.softuni.productshop.domain.entities.Category;
 import com.softuni.productshop.domain.entities.Product;
 import com.softuni.productshop.domain.entities.User;
@@ -31,8 +31,8 @@ public class SeedServicesImpl implements SeedService {
 
     @Autowired
     public SeedServicesImpl(UserRepository userRepository, ProductRepository productRepository, CategoryRepository categoryRepository) {
-        this.userRepository = userRepository;
         this.productRepository = productRepository;
+        this.userRepository = userRepository;
         this.categoryRepository = categoryRepository;
     }
 
@@ -43,8 +43,8 @@ public class SeedServicesImpl implements SeedService {
         final FileReader fileReader = new FileReader(Paths.USERS_JSON_PATH.toFile());
 
         userRepository.saveAllAndFlush(
-                Arrays.stream(GSON.fromJson(fileReader, UserImportDto[].class))
-                        .map(userImportDto -> MODEL_MAPPER.map(userImportDto, User.class))
+                Arrays.stream(GSON.fromJson(fileReader, ImportUserDto[].class))
+                        .map(userDto -> MODEL_MAPPER.map(userDto, User.class))
                         .collect(Collectors.toList()));
 
         fileReader.close();
@@ -56,8 +56,8 @@ public class SeedServicesImpl implements SeedService {
 
         final FileReader fileReader = new FileReader(Paths.PRODUCTS_JSON_PATH.toFile());
 
-        productRepository.saveAllAndFlush(Arrays.stream(GSON.fromJson(fileReader, ProductImportDto[].class))
-                .map(productImportDto -> MODEL_MAPPER.map(productImportDto, Product.class))
+        productRepository.saveAllAndFlush(Arrays.stream(GSON.fromJson(fileReader, ImportProductDto[].class))
+                .map(productDto -> MODEL_MAPPER.map(productDto, Product.class))
                 .map(this::setRandomSeller)
                 .map(this::setRandomBuyer)
                 .map(this::setRandomCategories)
@@ -73,8 +73,8 @@ public class SeedServicesImpl implements SeedService {
         final FileReader fileReader = new FileReader(Paths.CATEGORIES_JSON_PATH.toFile());
 
         categoryRepository.saveAllAndFlush(
-                Arrays.stream(GSON.fromJson(fileReader, CategoryImportDto[].class))
-                        .map(categoryImportDto -> MODEL_MAPPER.map(categoryImportDto, Category.class))
+                Arrays.stream(GSON.fromJson(fileReader, CategoryDto[].class))
+                        .map(categoryDto -> MODEL_MAPPER.map(categoryDto, Category.class))
                         .collect(Collectors.toList()));
 
         fileReader.close();

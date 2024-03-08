@@ -11,8 +11,9 @@ import java.math.BigDecimal;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class ProductWithNoBuyerDto {
+public class ProductWithBuyerDto {
     private String name;
     private BigDecimal price;
-    private String seller;
+    private String buyerFirstName;
+    private String buyerLastName;
 }

@@ -12,8 +12,12 @@ import java.math.BigDecimal;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class ProductImportDto {
+public class ImportProductDto {
     private String name;
     private BigDecimal price;
     private User seller;
+
+    public ProductWithSellerDto toProductWithSellerDto() {
+        return new ProductWithSellerDto(name, price, String.format("%s %s", seller.getFirstName(), seller.getLastName()));
+    }
 }

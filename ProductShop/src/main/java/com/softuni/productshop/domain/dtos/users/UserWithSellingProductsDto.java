@@ -1,16 +1,19 @@
 package com.softuni.productshop.domain.dtos.users;
 
+import com.softuni.productshop.domain.dtos.products.ProductWithBuyerDto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Set;
+
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
-public class UserImportDto {
+@NoArgsConstructor
+public class UserWithSellingProductsDto {
     private String firstName;
     private String lastName;
-    private Integer age;
+    private Set<ProductWithBuyerDto> sellingProducts;
 }

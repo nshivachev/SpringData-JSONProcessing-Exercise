@@ -29,17 +29,18 @@ public class User extends BaseEntity {
     @Basic
     private Integer age;
 
-    @OneToMany(targetEntity = Product.class, mappedBy = "buyer")
-    @Fetch(FetchMode.JOIN)
-    private Set<Product> boughtProducts;
-
     @OneToMany(targetEntity = Product.class, mappedBy = "seller")
     @Fetch(FetchMode.JOIN)
     private Set<Product> sellingProducts;
 
-    @ManyToMany
-    private Set<User> friends;
+    @OneToMany(targetEntity = Product.class, mappedBy = "buyer")
+    @Fetch(FetchMode.JOIN)
+    private Set<Product> boughtProducts;
 
+    @ManyToMany
+    @Fetch(FetchMode.JOIN)
+    private Set<User> friends;
+    
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

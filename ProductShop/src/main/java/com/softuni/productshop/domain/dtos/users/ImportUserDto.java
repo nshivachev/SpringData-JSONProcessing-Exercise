@@ -1,4 +1,4 @@
-package com.softuni.productshop.domain.dtos.categories;
+package com.softuni.productshop.domain.dtos.users;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,6 +9,8 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class CategoryImportDto {
-    private String name;
+public class ImportUserDto {
+    private String firstName;
+    private String lastName;
+    private Integer age;
 }

@@ -1,7 +1,7 @@
 package com.softuni.productshop.services;
 
-import com.softuni.productshop.domain.dtos.products.ProductPriceNameSellerDto;
-import com.softuni.productshop.domain.dtos.products.ProductWithNoBuyerDto;
+import com.softuni.productshop.domain.dtos.products.ImportProductDto;
+import com.softuni.productshop.domain.dtos.products.ProductWithSellerDto;
 import com.softuni.productshop.repositories.ProductRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.List;
 
-import static com.softuni.productshop.constants.Paths.PRODUCTS_WITH_NO_BUYER_IN_RANGE;
+import static com.softuni.productshop.constants.Paths.PRODUCTS_WITH_NO_BUYER_IN_RANGE_JSON_PATH;
 import static com.softuni.productshop.constants.Utils.writeJsonIntoFile;
 
 @Service
@@ -25,10 +25,14 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     @Transactional
-    public List<ProductWithNoBuyerDto> selectAllInPriceRange(BigDecimal startPrice, BigDecimal endPrice) throws IOException {
-        final List<ProductWithNoBuyerDto> products = productRepository.findAllInPriceRangeBetween(startPrice, endPrice).stream().map(ProductPriceNameSellerDto::toProductWithNoBuyerDto).toList();
+    public List<ProductWithSellerDto> selectAllInPriceRange(BigDecimal startPrice, BigDecimal endPrice) throws IOException {
+        final List<ProductWithSellerDto> products = productRepository
+                .findAllInPriceRangeBetween(startPrice, endPrice)
+                .stream()
+                .map(ImportProductDto::toProductWithSellerDto)
+                .toList();
 
-        writeJsonIntoFile(products, PRODUCTS_WITH_NO_BUYER_IN_RANGE);
+        writeJsonIntoFile(products, PRODUCTS_WITH_NO_BUYER_IN_RANGE_JSON_PATH);
 
         return products;
     }
