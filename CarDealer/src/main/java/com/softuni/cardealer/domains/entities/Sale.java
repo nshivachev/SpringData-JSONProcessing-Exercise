@@ -18,7 +18,7 @@ import java.util.Objects;
 @Table(name = "sales")
 public class Sale extends BaseEntity {
     @Basic
-    private Double discount;
+    private Float discount;
 
     @OneToOne
     private Car car;

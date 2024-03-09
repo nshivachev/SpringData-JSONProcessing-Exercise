@@ -26,7 +26,7 @@ public class Part extends BaseEntity {
     private BigDecimal price;
 
     @Basic
-    private Integer quantity;
+    private int quantity;
 
     @ManyToMany
     @Fetch(FetchMode.JOIN)

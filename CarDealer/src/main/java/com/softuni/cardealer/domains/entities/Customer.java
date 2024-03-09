@@ -8,7 +8,7 @@ import lombok.Setter;
 import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.FetchMode;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Objects;
 import java.util.Set;
 
@@ -23,7 +23,7 @@ public class Customer extends BaseEntity {
     private String name;
 
     @Column(name = "birth_date")
-    private LocalDate birthDate;
+    private LocalDateTime birthDate;
 
     @Column(name = "is_young_driver")
     private boolean isYoungDriver;

@@ -5,11 +5,11 @@ import java.io.IOException;
 public interface SeedService {
     void seedSuppliers() throws IOException;
 
-    void seedParts();
+    void seedParts() throws IOException;
 
-    void seedCars();
+    void seedCars() throws IOException;
 
-    void seedCustomers();
+    void seedCustomers() throws IOException;
 
     void seedSales();
 

@@ -1,15 +1,15 @@
 package com.softuni.cardealer.domains.entities;
 
-import jakarta.persistence.Basic;
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import org.hibernate.annotations.Fetch;
+import org.hibernate.annotations.FetchMode;
 
 import java.util.Objects;
+import java.util.Set;
 
 @Getter
 @Setter
@@ -25,7 +25,11 @@ public class Car extends BaseEntity {
     private String model;
 
     @Column(name = "travelled_distance")
-    private Double travelledDistance;
+    private Long travelledDistance;
+
+    @ManyToMany
+    @Fetch(FetchMode.JOIN)
+    private Set<Part> parts;
 
     @Override
     public boolean equals(Object o) {
