@@ -1,7 +1,6 @@
 package com.softuni.productshop.services;
 
-import com.softuni.productshop.constants.Paths;
-import com.softuni.productshop.domain.dtos.categories.CategoryDto;
+import com.softuni.productshop.domain.dtos.categories.ImportCategoryDto;
 import com.softuni.productshop.domain.dtos.products.ImportProductDto;
 import com.softuni.productshop.domain.dtos.users.ImportUserDto;
 import com.softuni.productshop.domain.entities.Category;
@@ -17,7 +16,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.*;
-import java.util.stream.Collectors;
 import java.util.stream.LongStream;
 
 import static com.softuni.productshop.constants.Paths.*;
@@ -46,7 +44,7 @@ public class SeedServicesImpl implements SeedService {
         userRepository.saveAllAndFlush(
                 Arrays.stream(GSON.fromJson(fileReader, ImportUserDto[].class))
                         .map(userDto -> MODEL_MAPPER.map(userDto, User.class))
-                        .collect(Collectors.toList()));
+                        .toList());
 
         fileReader.close();
     }
@@ -74,9 +72,9 @@ public class SeedServicesImpl implements SeedService {
         final FileReader fileReader = new FileReader(CATEGORIES_JSON_PATH.toFile());
 
         categoryRepository.saveAllAndFlush(
-                Arrays.stream(GSON.fromJson(fileReader, CategoryDto[].class))
+                Arrays.stream(GSON.fromJson(fileReader, ImportCategoryDto[].class))
                         .map(categoryDto -> MODEL_MAPPER.map(categoryDto, Category.class))
-                        .collect(Collectors.toList()));
+                        .toList());
 
         fileReader.close();
     }

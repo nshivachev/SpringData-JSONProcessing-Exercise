@@ -1,4 +1,4 @@
-package com.softuni.productshop.domain.dtos.categories;
+package com.softuni.cardealer.domains.dtos.suppliers;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,6 +9,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class CategoryDto {
+public class ImportSupplierDto {
     private String name;
+    private boolean isImporter;
 }
