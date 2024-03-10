@@ -8,4 +8,7 @@ public enum Paths {
     public final static Path CUSTOMERS_INPUT_JSON_PATH = Path.of("CarDealer", "src", "main", "resources", "dbContent", "customers.json");
     public final static Path PARTS_INPUT_JSON_PATH = Path.of("CarDealer", "src", "main", "resources", "dbContent", "parts.json");
     public final static Path SUPPLIERS_INPUT_JSON_PATH = Path.of("CarDealer", "src", "main", "resources", "dbContent", "suppliers.json");
+
+    public final static Path CUSTOMERS_OUTPUT_JSON_PATH = Path.of("CarDealer", "src", "main", "resources", "outputs", "customers.json");
+    public final static Path CAS_OUTPUT_JSON_PATH = Path.of("CarDealer", "src", "main", "resources", "outputs", "cas.json");
 }
