@@ -1,6 +1,9 @@
 package com.softuni.cardealer.domains.entities;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Basic;
+import jakarta.persistence.Entity;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -10,7 +13,6 @@ import org.hibernate.annotations.FetchMode;
 
 import java.math.BigDecimal;
 import java.util.Objects;
-import java.util.Set;
 
 @Getter
 @Setter

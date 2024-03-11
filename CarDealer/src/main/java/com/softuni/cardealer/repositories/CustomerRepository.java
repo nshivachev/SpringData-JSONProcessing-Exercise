@@ -16,5 +16,5 @@ public interface CustomerRepository extends JpaRepository<Customer, Long> {
     @Query("select c from Customer c order by c.birthDate, c.isYoungDriver")
     List<Customer> findAllOrderByBirthDateThenOrderByYoungerDriver();
 
-   List<Customer> findAllBySalesIsNotEmpty();
+    List<Customer> findAllBySalesIsNotEmpty();
 }
