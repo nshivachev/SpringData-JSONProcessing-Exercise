@@ -9,7 +9,8 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class ImportSupplierDto {
+public class SupplierWithNamePartsCountDto {
+    private Long id;
     private String name;
-    private boolean importer;
+    private long partsCount;
 }

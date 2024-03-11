@@ -17,6 +17,6 @@ public class CustomerDto {
     private Long id;
     private String name;
     private LocalDateTime birthDate;
-    private boolean isYoungDriver;
+    private boolean youngDriver;
     private Set<SalesDto> sales;
 }

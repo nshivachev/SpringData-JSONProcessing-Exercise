@@ -14,5 +14,5 @@ import java.time.LocalDateTime;
 public class ImportCustomerDto {
     private String name;
     private LocalDateTime birthDate;
-    private boolean isYoungDriver;
+    private boolean youngDriver;
 }

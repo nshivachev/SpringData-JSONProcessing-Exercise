@@ -6,5 +6,5 @@ import java.io.IOException;
 import java.util.List;
 
 public interface CustomerService {
-    List<CustomerDto> getAllOrderByBirthDate() throws IOException;
+    List<CustomerDto> findAllOrderByBirthDateThenOrderByYoungerDriver() throws IOException;
 }

@@ -22,9 +22,9 @@ public class CustomerServiceImpl implements CustomerService {
     }
 
     @Override
-    public List<CustomerDto> getAllOrderByBirthDate() throws IOException {
+    public List<CustomerDto> findAllOrderByBirthDateThenOrderByYoungerDriver() throws IOException {
         final List<CustomerDto> customers = customerRepository
-                .getAllOrderByBirthDate()
+                .findAllOrderByBirthDateThenOrderByYoungerDriver()
                 .stream()
                 .map(customer -> MODEL_MAPPER.map(customer, CustomerDto.class))
                 .toList();
