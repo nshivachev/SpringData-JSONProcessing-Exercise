@@ -1,6 +1,7 @@
 package com.softuni.cardealer.services;
 
 import com.softuni.cardealer.domains.dtos.customers.CustomerDto;
+import com.softuni.cardealer.domains.entities.Customer;
 import com.softuni.cardealer.repositories.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -32,5 +33,10 @@ public class CustomerServiceImpl implements CustomerService {
         writeJsonIntoFile(customers, CUSTOMERS_OUTPUT_JSON_PATH);
 
         return customers;
+    }
+
+    @Override
+    public List<Customer> findAllBySalesIsNotEmpty() {
+        return customerRepository.findAllBySalesIsNotEmpty();
     }
 }

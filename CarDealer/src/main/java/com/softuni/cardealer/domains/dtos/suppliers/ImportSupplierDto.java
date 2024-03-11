@@ -11,5 +11,5 @@ import lombok.Setter;
 @AllArgsConstructor
 public class ImportSupplierDto {
     private String name;
-    private boolean importer;
+    private boolean isImporter;
 }

@@ -13,6 +13,7 @@ public interface SupplierRepository extends JpaRepository<Supplier, Long> {
     @Query(value = "select * from `car_dealer`.suppliers order by rand() limit 1", nativeQuery = true)
     Optional<Supplier> getRandomEntity();
 
+    @Query("select s from Supplier s where s.isImporter is false")
     List<Supplier> findAllByImporterIsFalse();
 }
 

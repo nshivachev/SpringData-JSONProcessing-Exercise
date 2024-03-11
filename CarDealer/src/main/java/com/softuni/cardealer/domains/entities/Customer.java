@@ -26,7 +26,7 @@ public class Customer extends BaseEntity {
     private LocalDateTime birthDate;
 
     @Column(name = "is_young_driver")
-    private boolean youngDriver;
+    private boolean isYoungDriver;
 
     @OneToMany(targetEntity = Sale.class, mappedBy = "customer")
     @Fetch(FetchMode.JOIN)

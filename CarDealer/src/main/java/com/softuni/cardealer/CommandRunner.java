@@ -31,5 +31,6 @@ public class CommandRunner implements CommandLineRunner {
         carService.findAllByMakeOrderByModelAscThenOrderByTravelledDistanceDesc("Toyota");
         supplierService.findAllByImporterIsFalse();
         carService.findAllWithPartsWithNameAndPrice();
+        customerService.findAllBySalesIsNotEmpty();
     }
 }

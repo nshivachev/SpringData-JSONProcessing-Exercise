@@ -28,10 +28,6 @@ public class Part extends BaseEntity {
     @Basic
     private int quantity;
 
-    @ManyToMany
-    @Fetch(FetchMode.JOIN)
-    private Set<Car> cars;
-
     @ManyToOne
     @Fetch(FetchMode.JOIN)
     private Supplier supplier;

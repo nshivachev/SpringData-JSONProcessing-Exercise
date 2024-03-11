@@ -22,7 +22,7 @@ public class Supplier extends BaseEntity {
     private String name;
 
     @Column(name = "is_importer")
-    private boolean importer;
+    private boolean isImporter;
 
     @OneToMany(targetEntity = Part.class, mappedBy = "supplier")
     @Fetch(FetchMode.JOIN)
