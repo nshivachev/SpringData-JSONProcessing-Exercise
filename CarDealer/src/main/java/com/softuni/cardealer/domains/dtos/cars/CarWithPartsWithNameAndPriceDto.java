@@ -17,4 +17,8 @@ public class CarWithPartsWithNameAndPriceDto {
     private String model;
     private Long travelledDistance;
     private Set<PartWithNameAndPriceDto> parts;
+
+    public ImportCarDto toImportCarDto() {
+        return new ImportCarDto(make, model, travelledDistance);
+    }
 }
