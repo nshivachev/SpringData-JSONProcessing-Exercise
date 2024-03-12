@@ -1,6 +1,6 @@
 package com.softuni.cardealer.services;
 
-import com.softuni.cardealer.domains.dtos.suppliers.SupplierWithNamePartsCountDto;
+import com.softuni.cardealer.domains.dtos.suppliers.SupplierWithNameAndPartsCountDto;
 import com.softuni.cardealer.domains.entities.Supplier;
 import com.softuni.cardealer.repositories.SupplierRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,8 +22,8 @@ public class SupplierServiceImpl implements SupplierService {
     }
 
     @Override
-    public List<SupplierWithNamePartsCountDto> findAllByImporterIsFalse() throws IOException {
-        List<SupplierWithNamePartsCountDto> suppliers = supplierRepository.findAllByImporterIsFalse()
+    public List<SupplierWithNameAndPartsCountDto> findAllByImporterIsFalse() throws IOException {
+        List<SupplierWithNameAndPartsCountDto> suppliers = supplierRepository.findAllByImporterIsFalse()
                 .stream()
                 .map(Supplier::toSupplierWithNamePartsCountDto)
                 .toList();

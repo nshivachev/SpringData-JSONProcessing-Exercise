@@ -1,7 +1,7 @@
 package com.softuni.cardealer.services;
 
-import com.softuni.cardealer.domains.dtos.cars.CarWithMakeModelDistanceDto;
-import com.softuni.cardealer.domains.dtos.cars.CarWithPartsWithNamePriceDto;
+import com.softuni.cardealer.domains.dtos.cars.CarWithMakeAndModelAndDistanceDto;
+import com.softuni.cardealer.domains.dtos.cars.CarWithPartsWithNameAndPriceDto;
 import com.softuni.cardealer.repositories.CarRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -24,8 +24,8 @@ public class CarServiceImpl implements CarService {
     }
 
     @Override
-    public List<CarWithMakeModelDistanceDto> findAllByMakeOrderByModelAscThenOrderByTravelledDistanceDesc(String make) throws IOException {
-        final List<CarWithMakeModelDistanceDto> cars = carRepository.findAllByMakeOrderByModelAscThenOrderByTravelledDistanceDesc(make);
+    public List<CarWithMakeAndModelAndDistanceDto> findAllByMakeOrderByModelAscThenOrderByTravelledDistanceDesc(String make) throws IOException {
+        final List<CarWithMakeAndModelAndDistanceDto> cars = carRepository.findAllByMakeOrderByModelAscThenOrderByTravelledDistanceDesc(make);
 
         writeJsonIntoFile(cars, CARS_OUTPUT_JSON_PATH);
 
@@ -33,10 +33,10 @@ public class CarServiceImpl implements CarService {
     }
 
     @Override
-    public List<CarWithPartsWithNamePriceDto> findAllWithPartsWithNameAndPrice() throws IOException {
-        List<CarWithPartsWithNamePriceDto> cars = carRepository.findAll()
+    public List<CarWithPartsWithNameAndPriceDto> findAllWithPartsWithNameAndPrice() throws IOException {
+        List<CarWithPartsWithNameAndPriceDto> cars = carRepository.findAll()
                 .stream()
-                .map(car -> MODEL_MAPPER.map(car, CarWithPartsWithNamePriceDto.class))
+                .map(car -> MODEL_MAPPER.map(car, CarWithPartsWithNameAndPriceDto.class))
                 .toList();
 
         writeJsonIntoFile(cars, CARS_PARTS_NAME_PRICE_OUTPUT_JSON_PATH);

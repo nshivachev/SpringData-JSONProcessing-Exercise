@@ -1,6 +1,6 @@
 package com.softuni.cardealer.domains.dtos.cars;
 
-import com.softuni.cardealer.domains.dtos.parts.PartWithNamePriceDto;
+import com.softuni.cardealer.domains.dtos.parts.PartWithNameAndPriceDto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -12,9 +12,9 @@ import java.util.Set;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class CarWithPartsWithNamePriceDto {
+public class CarWithPartsWithNameAndPriceDto {
     private String make;
     private String model;
     private Long travelledDistance;
-    private Set<PartWithNamePriceDto> parts;
+    private Set<PartWithNameAndPriceDto> parts;
 }

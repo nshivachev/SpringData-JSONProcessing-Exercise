@@ -1,6 +1,6 @@
 package com.softuni.cardealer.domains.entities;
 
-import com.softuni.cardealer.domains.dtos.suppliers.SupplierWithNamePartsCountDto;
+import com.softuni.cardealer.domains.dtos.suppliers.SupplierWithNameAndPartsCountDto;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -28,7 +28,7 @@ public class Supplier extends BaseEntity {
     @Fetch(FetchMode.JOIN)
     private Set<Part> parts;
 
-    public SupplierWithNamePartsCountDto toSupplierWithNamePartsCountDto() {
-        return new SupplierWithNamePartsCountDto(getId(), name, parts.size());
+    public SupplierWithNameAndPartsCountDto toSupplierWithNamePartsCountDto() {
+        return new SupplierWithNameAndPartsCountDto(getId(), name, parts.size());
     }
 }

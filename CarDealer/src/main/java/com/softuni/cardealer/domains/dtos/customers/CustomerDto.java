@@ -1,6 +1,6 @@
 package com.softuni.cardealer.domains.dtos.customers;
 
-import com.softuni.cardealer.domains.dtos.sales.SalesDto;
+import com.softuni.cardealer.domains.dtos.sales.SaleDto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -18,5 +18,5 @@ public class CustomerDto {
     private String name;
     private LocalDateTime birthDate;
     private boolean isYoungDriver;
-    private Set<SalesDto> sales;
+    private Set<SaleDto> sales;
 }

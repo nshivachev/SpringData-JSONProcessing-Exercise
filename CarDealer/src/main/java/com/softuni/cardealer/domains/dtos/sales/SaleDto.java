@@ -10,7 +10,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class SalesDto {
+public class SaleDto {
     private Long id;
     private Float discount;
     private CarDto car;

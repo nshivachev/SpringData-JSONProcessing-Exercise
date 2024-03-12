@@ -1,6 +1,5 @@
 package com.softuni.cardealer.repositories;
 
-import com.softuni.cardealer.domains.dtos.customers.CustomerWrapperDto;
 import com.softuni.cardealer.domains.entities.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -17,11 +16,5 @@ public interface CustomerRepository extends JpaRepository<Customer, Long> {
     @Query("select c from Customer c order by c.birthDate, c.isYoungDriver")
     List<Customer> findAllOrderByBirthDateThenOrderByYoungerDriver();
 
-    @Query("select new com.softuni.cardealer.domains.dtos.customers.CustomerWrapperDto(cu.name, count(ca.id), sum(p.price)) " +
-            "from Customer cu " +
-            "join cu.sales s " +
-            "join s.car ca " +
-            "join ca.parts p " +
-            "group by ca.id, p.id")
-    List<CustomerWrapperDto> findAllBySalesIsNotEmpty();
+    List<Customer> findAllBySalesIsNotEmpty();
 }

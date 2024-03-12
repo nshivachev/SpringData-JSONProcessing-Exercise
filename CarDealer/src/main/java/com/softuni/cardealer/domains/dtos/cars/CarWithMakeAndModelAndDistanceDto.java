@@ -1,4 +1,4 @@
-package com.softuni.cardealer.domains.dtos.suppliers;
+package com.softuni.cardealer.domains.dtos.cars;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,8 +9,9 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class SupplierWithNamePartsCountDto {
+public class CarWithMakeAndModelAndDistanceDto {
     private Long id;
-    private String name;
-    private long partsCount;
+    private String make;
+    private String model;
+    private Long travelledDistance;
 }
