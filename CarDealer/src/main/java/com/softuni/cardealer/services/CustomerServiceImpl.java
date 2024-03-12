@@ -1,7 +1,7 @@
 package com.softuni.cardealer.services;
 
 import com.softuni.cardealer.domains.dtos.customers.CustomerDto;
-import com.softuni.cardealer.domains.entities.Customer;
+import com.softuni.cardealer.domains.dtos.customers.CustomerWrapperDto;
 import com.softuni.cardealer.repositories.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -36,7 +36,9 @@ public class CustomerServiceImpl implements CustomerService {
     }
 
     @Override
-    public List<Customer> findAllBySalesIsNotEmpty() {
-        return customerRepository.findAllBySalesIsNotEmpty();
+    public List<CustomerWrapperDto> findAllBySalesIsNotEmpty() {
+        List<CustomerWrapperDto> customers = customerRepository.findAllBySalesIsNotEmpty();
+
+        return customers;
     }
 }
