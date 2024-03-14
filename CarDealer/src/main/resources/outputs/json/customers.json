@@ -1,0 +1,4299 @@
+[
+  {
+    "id": 29,
+    "name": "Louann Holzworth",
+    "birthDate": "1960-10-01",
+    "isYoungDriver": false,
+    "sales": [
+      {
+        "id": 15,
+        "discount": 0.15,
+        "car": {
+          "make": "Opel",
+          "model": "Omega",
+          "travelledDistance": 2147483647,
+          "parts": [
+            {
+              "name": "Front Left Side Door Glass",
+              "price": 100.92,
+              "quantity": 10,
+              "supplier": {
+                "name": "Wyeth",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Valve spring",
+              "price": 104.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E*Trade Group, Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Exhaust flange gasket",
+              "price": 130.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Level 3 Communications Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Front Left Side Outer door handle",
+              "price": 999.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Atmel Corporation",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Valance",
+              "price": 1002.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "3M Company",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 25,
+        "discount": 0.15,
+        "car": {
+          "make": "Great Wall",
+          "model": "Haval M4",
+          "travelledDistance": 9223372035807,
+          "parts": [
+            {
+              "name": "Rear Right Side Door Glass",
+              "price": 100.90,
+              "quantity": 10,
+              "supplier": {
+                "name": "The Clorox Co.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Fan blade",
+              "price": 150.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E*Trade Group, Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Overflow tank",
+              "price": 1200.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Cintas Corp.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Fan belt",
+              "price": 10.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Danaher Corporation",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Exhaust flange gasket",
+              "price": 130.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Level 3 Communications Inc.",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 35,
+        "discount": 0.0,
+        "car": {
+          "make": "Citroen",
+          "model": "C1",
+          "travelledDistance": 922336854775807,
+          "parts": [
+            {
+              "name": "Trunk/boot/hatch",
+              "price": 2200.99,
+              "quantity": 300,
+              "supplier": {
+                "name": "Zale",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Valve stem seal",
+              "price": 120.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "CNF Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Cowl screen",
+              "price": 1500.34,
+              "quantity": 10,
+              "supplier": {
+                "name": "3M Company",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Steering box",
+              "price": 103.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "3M Company",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Front fascia",
+              "price": 11.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Olin Corp.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Donnetta Soliz",
+    "birthDate": "1963-10-01",
+    "isYoungDriver": true,
+    "sales": [
+      {
+        "id": 74,
+        "discount": 0.35,
+        "car": {
+          "make": "Mercedes",
+          "model": "W124",
+          "travelledDistance": 922336854775807,
+          "parts": [
+            {
+              "name": "Heat shield",
+              "price": 10.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E.I. Du Pont de Nemours and Company",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Fuel filter",
+              "price": 162.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Agway Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Door lock and power door locks",
+              "price": 120.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Wyeth",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 12,
+        "discount": 0.15,
+        "car": {
+          "make": "Mercedes",
+          "model": "W202",
+          "travelledDistance": 2147647,
+          "parts": [
+            {
+              "name": "Rocker arm",
+              "price": 98.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Cintas Corp.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Valve stem seal",
+              "price": 120.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "CNF Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Front Right Side Inner door handle",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E.I. Du Pont de Nemours and Company",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 28,
+        "discount": 0.1,
+        "car": {
+          "make": "Mercedes",
+          "model": "W212",
+          "travelledDistance": 2147647,
+          "parts": [
+            {
+              "name": "Air filter",
+              "price": 200.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Sunoco Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Rear Right Side Door Glass",
+              "price": 100.90,
+              "quantity": 10,
+              "supplier": {
+                "name": "The Clorox Co.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Clutch shoe",
+              "price": 10.49,
+              "quantity": 10,
+              "supplier": {
+                "name": "Paychex Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Sunroof Glass",
+              "price": 205.24,
+              "quantity": 10,
+              "supplier": {
+                "name": "Paychex Inc",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 80,
+        "discount": 0.2,
+        "car": {
+          "make": "Alfa Romeo",
+          "model": "75",
+          "travelledDistance": 9223372775807,
+          "parts": [
+            {
+              "name": "Water tank",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Sunoco Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Rear Left Side Door Glass",
+              "price": 100.66,
+              "quantity": 10,
+              "supplier": {
+                "name": "CNF Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Timing tape",
+              "price": 40.90,
+              "quantity": 10,
+              "supplier": {
+                "name": "Agway Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Rear Right Side Window motor",
+              "price": 22.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Sunoco Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Rear Left Side Window motor",
+              "price": 144.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Big Lots, Inc.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Rema Revelle",
+    "birthDate": "1970-05-01",
+    "isYoungDriver": true,
+    "sales": [
+      {
+        "id": 22,
+        "discount": 0.25,
+        "car": {
+          "make": "Peugeot",
+          "model": "206",
+          "travelledDistance": 2147483647,
+          "parts": [
+            {
+              "name": "Clutch shoe",
+              "price": 10.49,
+              "quantity": 10,
+              "supplier": {
+                "name": "Paychex Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Valve cover",
+              "price": 130.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Wyeth",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Hinge",
+              "price": 11.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "The Clorox Co.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Exhaust clamp and bracket",
+              "price": 140.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Sunoco Inc.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 17,
+        "discount": 0.1,
+        "car": {
+          "make": "Ford",
+          "model": "GT40",
+          "travelledDistance": 92233775807,
+          "parts": [
+            {
+              "name": "Crank case",
+              "price": 2.93,
+              "quantity": 10,
+              "supplier": {
+                "name": "E.I. Du Pont de Nemours and Company",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Front Left Side Window motor",
+              "price": 56.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Muffler",
+              "price": 106.90,
+              "quantity": 10,
+              "supplier": {
+                "name": "Cintas Corp.",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 68,
+        "discount": 0.35,
+        "car": {
+          "make": "Ford",
+          "model": "Pinto",
+          "travelledDistance": 922337807,
+          "parts": [
+            {
+              "name": "Fuel rail",
+              "price": 107.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Oil pump",
+              "price": 100.19,
+              "quantity": 10,
+              "supplier": {
+                "name": "Anthem, Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Front Right Side Inner door handle",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E.I. Du Pont de Nemours and Company",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Front clip",
+              "price": 100.00,
+              "quantity": 10,
+              "supplier": {
+                "name": "IDT Corporation",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Carri Knapik",
+    "birthDate": "1972-02-02",
+    "isYoungDriver": true,
+    "sales": [
+      {
+        "id": 19,
+        "discount": 0.05,
+        "car": {
+          "make": "Opel",
+          "model": "Insignia",
+          "travelledDistance": 9223372036854775807,
+          "parts": [
+            {
+              "name": "Oil pan",
+              "price": 140.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "IDT Corporation",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Differential seal",
+              "price": 109.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Wyeth",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Resonator",
+              "price": 106.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Oil gasket",
+              "price": 130.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "VF Corporation",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 73,
+        "discount": 0.1,
+        "car": {
+          "make": "Ford",
+          "model": "Pinto",
+          "travelledDistance": 214647,
+          "parts": [
+            {
+              "name": "Drive belt",
+              "price": 3.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Saks Inc",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Sunroof Glass",
+              "price": 205.24,
+              "quantity": 10,
+              "supplier": {
+                "name": "Paychex Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Transmission gear",
+              "price": 15.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E.I. Du Pont de Nemours and Company",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Coolant hose ",
+              "price": 150.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Olin Corp.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "discount": 0.05,
+        "car": {
+          "make": "Alfa Romeo",
+          "model": "75",
+          "travelledDistance": 72036854775807,
+          "parts": [
+            {
+              "name": "Air blower",
+              "price": 140.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Olin Corp.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Crankshaft",
+              "price": 4.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Nicor Inc",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Sunroof Glass",
+              "price": 205.24,
+              "quantity": 10,
+              "supplier": {
+                "name": "Paychex Inc",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 79,
+        "discount": 0.2,
+        "car": {
+          "make": "Fiat",
+          "model": "Panda 4x4",
+          "travelledDistance": 922036854775807,
+          "parts": [
+            {
+              "name": "Front fascia",
+              "price": 11.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Olin Corp.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Piston",
+              "price": 94.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Cintas Corp.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Rims",
+              "price": 4020.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Chubb Corp",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Valve spring",
+              "price": 104.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E*Trade Group, Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Fascia",
+              "price": 100.34,
+              "quantity": 10,
+              "supplier": {
+                "name": "Emcor Group Inc.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Garret Capron",
+    "birthDate": "1975-07-01",
+    "isYoungDriver": false,
+    "sales": [
+      {
+        "id": 48,
+        "discount": 0.4,
+        "car": {
+          "make": "Renault",
+          "model": "Alaskan",
+          "travelledDistance": 2147483647,
+          "parts": [
+            {
+              "name": "Pillar",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "The Clorox Co.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Engine block",
+              "price": 40.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Chubb Corp",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Oil strainer",
+              "price": 45.29,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Bonnet/hood",
+              "price": 1001.34,
+              "quantity": 10,
+              "supplier": {
+                "name": "Saks Inc",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Steering box",
+              "price": 103.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "3M Company",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 37,
+        "discount": 0.1,
+        "car": {
+          "make": "Ford",
+          "model": "Fiesta",
+          "travelledDistance": 2143647,
+          "parts": [
+            {
+              "name": "Windshield",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E.I. Du Pont de Nemours and Company",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Starter motor",
+              "price": 0.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Nicor Inc",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Camshaft",
+              "price": 100.98,
+              "quantity": 10,
+              "supplier": {
+                "name": "Merck \u0026 Co., Inc.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 43,
+        "discount": 0.0,
+        "car": {
+          "make": "Renault",
+          "model": "Alaskan",
+          "travelledDistance": 92233720375807,
+          "parts": [
+            {
+              "name": "Master cylinder",
+              "price": 130.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "3M Company",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Door control module",
+              "price": 421.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Casey\u0027s General Stores Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Bonnet/hood",
+              "price": 1001.34,
+              "quantity": 10,
+              "supplier": {
+                "name": "Saks Inc",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Door latch",
+              "price": 2331.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Big Lots, Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Fuel cooler",
+              "price": 140.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Zale",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 46,
+        "discount": 0.3,
+        "car": {
+          "make": "Nissan",
+          "model": "Altima",
+          "travelledDistance": 214747,
+          "parts": [
+            {
+              "name": "Engine block",
+              "price": 40.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Chubb Corp",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Engine",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Olin Corp.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Distributor",
+              "price": 7.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Saks Inc",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Fuel tank",
+              "price": 100.98,
+              "quantity": 10,
+              "supplier": {
+                "name": "GenCorp Inc.",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Teddy Hobby",
+    "birthDate": "1975-10-01",
+    "isYoungDriver": true,
+    "sales": [
+      {
+        "id": 58,
+        "discount": 0.05,
+        "car": {
+          "make": "Toyota",
+          "model": "Prius",
+          "travelledDistance": 922337203685,
+          "parts": [
+            {
+              "name": "Bonnet/hood",
+              "price": 1001.34,
+              "quantity": 10,
+              "supplier": {
+                "name": "Saks Inc",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Radiator bolt",
+              "price": 160.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Oil filter",
+              "price": 200.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Level 3 Communications Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Steering arm",
+              "price": 104.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E*Trade Group, Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Hinge",
+              "price": 11.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "The Clorox Co.",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 30,
+        "discount": 0.15,
+        "car": {
+          "make": "Toyota",
+          "model": "Tacoma",
+          "travelledDistance": 247,
+          "parts": [
+            {
+              "name": "Steering box",
+              "price": 103.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "3M Company",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Clutch shoe",
+              "price": 10.49,
+              "quantity": 10,
+              "supplier": {
+                "name": "Paychex Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Front Left Side Window motor",
+              "price": 56.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Fuel filter",
+              "price": 162.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Agway Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Engine cradle",
+              "price": 39.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "CNF Inc.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Audrea Cardinal",
+    "birthDate": "1976-10-01",
+    "isYoungDriver": false,
+    "sales": [
+      {
+        "id": 36,
+        "discount": 0.1,
+        "car": {
+          "make": "Nissan",
+          "model": "370Z",
+          "travelledDistance": 922775807,
+          "parts": [
+            {
+              "name": "Cylinder head",
+              "price": 6.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Emcor Group Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Oil pan",
+              "price": 140.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "IDT Corporation",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Master cylinder",
+              "price": 130.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "3M Company",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 40,
+        "discount": 0.5,
+        "car": {
+          "make": "Chevy",
+          "model": "Camaro",
+          "travelledDistance": 92233854775807,
+          "parts": [
+            {
+              "name": "Rocker arm",
+              "price": 98.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Cintas Corp.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Front clip",
+              "price": 100.00,
+              "quantity": 10,
+              "supplier": {
+                "name": "IDT Corporation",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Rear Right Quarter Glass",
+              "price": 100.66,
+              "quantity": 10,
+              "supplier": {
+                "name": "Big Lots, Inc.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 84,
+        "discount": 0.2,
+        "car": {
+          "make": "Citroen",
+          "model": "C3",
+          "travelledDistance": 2147647,
+          "parts": [
+            {
+              "name": "Valve cover",
+              "price": 130.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Wyeth",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Roof rack",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Anthem, Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Rims",
+              "price": 4020.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Chubb Corp",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Air blower",
+              "price": 140.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Olin Corp.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Francis Mckim",
+    "birthDate": "1977-10-01",
+    "isYoungDriver": true,
+    "sales": [
+      {
+        "id": 34,
+        "discount": 0.2,
+        "car": {
+          "make": "Fiat",
+          "model": "500L",
+          "travelledDistance": 92233754775807,
+          "parts": [
+            {
+              "name": "Air blower",
+              "price": 140.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Olin Corp.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Fascia",
+              "price": 100.34,
+              "quantity": 10,
+              "supplier": {
+                "name": "Emcor Group Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Rocker arm",
+              "price": 98.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Cintas Corp.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Water pump gasket",
+              "price": 120.29,
+              "quantity": 10,
+              "supplier": {
+                "name": "Sunoco Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Exhaust flange gasket",
+              "price": 130.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Level 3 Communications Inc.",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 7,
+        "discount": 0.25,
+        "car": {
+          "make": "BMW",
+          "model": "F20",
+          "travelledDistance": 975807,
+          "parts": [
+            {
+              "name": "Heat shield",
+              "price": 10.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E.I. Du Pont de Nemours and Company",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Coolant hose ",
+              "price": 150.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Olin Corp.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Water tank",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Sunoco Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Piston",
+              "price": 94.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Cintas Corp.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Cooling fan",
+              "price": 120.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "3M Company",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 29,
+        "discount": 0.25,
+        "car": {
+          "make": "Ford",
+          "model": "Taurus",
+          "travelledDistance": 9223375807,
+          "parts": [
+            {
+              "name": "Muffler",
+              "price": 106.90,
+              "quantity": 10,
+              "supplier": {
+                "name": "Cintas Corp.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Trim package",
+              "price": 1900.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Wyeth",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Fuel filter",
+              "price": 162.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Agway Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Harmonic balancer",
+              "price": 67.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Caterpillar Inc.",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Brett Brickley",
+    "birthDate": "1980-10-01",
+    "isYoungDriver": true,
+    "sales": [
+      {
+        "id": 42,
+        "discount": 0.35,
+        "car": {
+          "make": "Peugeot",
+          "model": "405",
+          "travelledDistance": 922854775807,
+          "parts": [
+            {
+              "name": "Window regulator",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Level 3 Communications Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Rear Right Side Outer door handle",
+              "price": 80.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "The Clorox Co.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Thermostat",
+              "price": 1050.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Cintas Corp.",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 59,
+        "discount": 0.2,
+        "car": {
+          "make": "Citroen",
+          "model": "C4",
+          "travelledDistance": 213647,
+          "parts": [
+            {
+              "name": "Differential clutch",
+              "price": 120.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E.I. Du Pont de Nemours and Company",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Cowl screen",
+              "price": 1500.34,
+              "quantity": 10,
+              "supplier": {
+                "name": "3M Company",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Rear Right Side Door Glass",
+              "price": 100.90,
+              "quantity": 10,
+              "supplier": {
+                "name": "The Clorox Co.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Door control module",
+              "price": 421.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Casey\u0027s General Stores Inc.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 78,
+        "discount": 0.25,
+        "car": {
+          "make": "Mercedes",
+          "model": "W124",
+          "travelledDistance": 2147647,
+          "parts": [
+            {
+              "name": "Window motor",
+              "price": 123.49,
+              "quantity": 10,
+              "supplier": {
+                "name": "Casey\u0027s General Stores Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Oil strainer",
+              "price": 45.29,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Unexposed bumper",
+              "price": 1003.34,
+              "quantity": 10,
+              "supplier": {
+                "name": "VF Corporation",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Engine cradle",
+              "price": 39.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "CNF Inc.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Kristian Engberg",
+    "birthDate": "1981-10-03",
+    "isYoungDriver": false,
+    "sales": [
+      {
+        "id": 23,
+        "discount": 0.15,
+        "car": {
+          "make": "Opel",
+          "model": "Kadet",
+          "travelledDistance": 21474847,
+          "parts": [
+            {
+              "name": "Fuel pressure regulator",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Fender",
+              "price": 10.34,
+              "quantity": 10,
+              "supplier": {
+                "name": "Merck \u0026 Co., Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Differential seal",
+              "price": 109.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Wyeth",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Center-locking",
+              "price": 313.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Agway Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Rear Left Side Inner door handle",
+              "price": 93.99,
+              "quantity": 234,
+              "supplier": {
+                "name": "Saks Inc",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 11,
+        "discount": 0.4,
+        "car": {
+          "make": "Opel",
+          "model": "Omega",
+          "travelledDistance": 9223336854775807,
+          "parts": [
+            {
+              "name": "Rims",
+              "price": 4020.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Chubb Corp",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Fuel pressure regulator",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Valve cover",
+              "price": 130.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Wyeth",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Sunroof Glass",
+              "price": 205.24,
+              "quantity": 10,
+              "supplier": {
+                "name": "Paychex Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Rear Right Side Outer door handle",
+              "price": 80.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "The Clorox Co.",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Hipolito Lamoreaux",
+    "birthDate": "1982-08-01",
+    "isYoungDriver": true,
+    "sales": [
+      {
+        "id": 81,
+        "discount": 0.1,
+        "car": {
+          "make": "Skoda",
+          "model": "Fabia",
+          "travelledDistance": 214747,
+          "parts": [
+            {
+              "name": "Bonnet/hood",
+              "price": 1001.34,
+              "quantity": 10,
+              "supplier": {
+                "name": "Saks Inc",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Front Right Side Door Glass",
+              "price": 100.91,
+              "quantity": 10,
+              "supplier": {
+                "name": "Casey\u0027s General Stores Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Fuel rail",
+              "price": 107.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Welded assembly",
+              "price": 1020.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "VF Corporation",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 33,
+        "discount": 0.55,
+        "car": {
+          "make": "Chevy",
+          "model": "Camaro",
+          "travelledDistance": 2147487,
+          "parts": [
+            {
+              "name": "Bonnet/hood",
+              "price": 1001.34,
+              "quantity": 10,
+              "supplier": {
+                "name": "Saks Inc",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Steering arm",
+              "price": 104.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E*Trade Group, Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Exhaust flange gasket",
+              "price": 130.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Level 3 Communications Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Steering box",
+              "price": 103.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "3M Company",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Zada Attwood",
+    "birthDate": "1982-10-01",
+    "isYoungDriver": true,
+    "sales": [
+      {
+        "id": 53,
+        "discount": 0.2,
+        "car": {
+          "make": "Alfa Romeo",
+          "model": "156",
+          "travelledDistance": 92233720368547,
+          "parts": [
+            {
+              "name": "Oil pan",
+              "price": 140.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "IDT Corporation",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Radiator (fan) shroud",
+              "price": 300.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Airgas, Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Oil pipe",
+              "price": 100.29,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 66,
+        "discount": 0.35,
+        "car": {
+          "make": "Ferrari",
+          "model": "F40",
+          "travelledDistance": 21447,
+          "parts": [
+            {
+              "name": "Clutch shoe",
+              "price": 10.49,
+              "quantity": 10,
+              "supplier": {
+                "name": "Paychex Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Master cylinder",
+              "price": 130.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "3M Company",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Roof rack",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Anthem, Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Front Right Side Inner door handle",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E.I. Du Pont de Nemours and Company",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Cylinder head",
+              "price": 6.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Emcor Group Inc.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Sylvie Mcelravy",
+    "birthDate": "1983-10-01",
+    "isYoungDriver": false,
+    "sales": [
+      {
+        "id": 76,
+        "discount": 0.05,
+        "car": {
+          "make": "Ford",
+          "model": "Pinto",
+          "travelledDistance": 2147647,
+          "parts": [
+            {
+              "name": "Spoiler",
+              "price": 3000.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Danaher Corporation",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Fascia",
+              "price": 100.34,
+              "quantity": 10,
+              "supplier": {
+                "name": "Emcor Group Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Steering arm",
+              "price": 104.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E*Trade Group, Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Radiator (fan) shroud",
+              "price": 300.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Airgas, Inc.",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 20,
+        "discount": 0.0,
+        "car": {
+          "make": "Ferrari",
+          "model": "F430",
+          "travelledDistance": 214647,
+          "parts": [
+            {
+              "name": "Door seal",
+              "price": 444.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "CMGI Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Speed reducer",
+              "price": 14.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Caterpillar Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Door control module",
+              "price": 421.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Casey\u0027s General Stores Inc.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 77,
+        "discount": 0.3,
+        "car": {
+          "make": "Skoda",
+          "model": "Fabia",
+          "travelledDistance": 922337203775807,
+          "parts": [
+            {
+              "name": "Muffler",
+              "price": 106.90,
+              "quantity": 10,
+              "supplier": {
+                "name": "Cintas Corp.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Catalytic converter",
+              "price": 540.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Cintas Corp.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Air blower",
+              "price": 140.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Olin Corp.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Rear Left Side Door Glass",
+              "price": 100.66,
+              "quantity": 10,
+              "supplier": {
+                "name": "CNF Inc.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 10,
+        "discount": 0.2,
+        "car": {
+          "make": "Mercedes",
+          "model": "W211",
+          "travelledDistance": 47757,
+          "parts": [
+            {
+              "name": "Distributor cap",
+              "price": 9.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Nicor Inc",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Resonator",
+              "price": 106.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Fuel pressure regulator",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 13,
+        "discount": 0.05,
+        "car": {
+          "make": "Opel",
+          "model": "Omega",
+          "travelledDistance": 2147483647,
+          "parts": [
+            {
+              "name": "Window seal",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Emcor Group Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Clutch assembly",
+              "price": 120.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "CNF Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Oil filter",
+              "price": 200.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Level 3 Communications Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Radiator pressure cap",
+              "price": 600.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Zale",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Engine cradle",
+              "price": 39.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "CNF Inc.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Rico Peer",
+    "birthDate": "1984-10-01",
+    "isYoungDriver": true,
+    "sales": [
+      {
+        "id": 4,
+        "discount": 0.2,
+        "car": {
+          "make": "Lamborghini",
+          "model": "Diablo",
+          "travelledDistance": 2147483647,
+          "parts": [
+            {
+              "name": "Tappet",
+              "price": 300.29,
+              "quantity": 10,
+              "supplier": {
+                "name": "Atmel Corporation",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Front Left Side Door Glass",
+              "price": 100.92,
+              "quantity": 10,
+              "supplier": {
+                "name": "Wyeth",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Speed reducer",
+              "price": 14.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Caterpillar Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Quarter panel",
+              "price": 100.99,
+              "quantity": 200,
+              "supplier": {
+                "name": "Danaher Corporation",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 39,
+        "discount": 0.15,
+        "car": {
+          "make": "Renault",
+          "model": "Alaskan",
+          "travelledDistance": 2147483647,
+          "parts": [
+            {
+              "name": "Water pump",
+              "price": 44.93,
+              "quantity": 10,
+              "supplier": {
+                "name": "E.I. Du Pont de Nemours and Company",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Valve spring",
+              "price": 104.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E*Trade Group, Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Window seal",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Emcor Group Inc.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 47,
+        "discount": 0.15,
+        "car": {
+          "make": "Rolls-Royce",
+          "model": "Phantom",
+          "travelledDistance": 922337254775807,
+          "parts": [
+            {
+              "name": "Trunk/boot/hatch",
+              "price": 2200.99,
+              "quantity": 300,
+              "supplier": {
+                "name": "Zale",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Rear Left Side Door Glass",
+              "price": 100.66,
+              "quantity": 10,
+              "supplier": {
+                "name": "CNF Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Heat shield",
+              "price": 10.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E.I. Du Pont de Nemours and Company",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Trim package",
+              "price": 1900.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Wyeth",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Harmonic balancer",
+              "price": 67.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Caterpillar Inc.",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 44,
+        "discount": 0.55,
+        "car": {
+          "make": "Peugeot",
+          "model": "308",
+          "travelledDistance": 775807,
+          "parts": [
+            {
+              "name": "Radiator ",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Big Lots, Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Crank pulley",
+              "price": 2.80,
+              "quantity": 10,
+              "supplier": {
+                "name": "Saks Inc",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Trim package",
+              "price": 1900.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Wyeth",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 26,
+        "discount": 0.15,
+        "car": {
+          "make": "Fiat",
+          "model": "500L",
+          "travelledDistance": 21474847,
+          "parts": [
+            {
+              "name": "Valve stem seal",
+              "price": 120.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "CNF Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Engine",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Olin Corp.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Window seal",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Emcor Group Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Resonator",
+              "price": 106.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Rear Right Side Window motor",
+              "price": 22.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Sunoco Inc.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 71,
+        "discount": 0.15,
+        "car": {
+          "make": "Ferrari",
+          "model": "F40",
+          "travelledDistance": 214647,
+          "parts": [
+            {
+              "name": "Fuel filter",
+              "price": 162.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Agway Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Speed reducer",
+              "price": 14.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Caterpillar Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Engine shake damper and vibration absorber",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Emcor Group Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Radiator bolt",
+              "price": 160.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Water pump pulley",
+              "price": 150.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Atmel Corporation",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 64,
+        "discount": 0.45,
+        "car": {
+          "make": "Toyota",
+          "model": "Corolla",
+          "travelledDistance": 2147,
+          "parts": [
+            {
+              "name": "Hinge",
+              "price": 11.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "The Clorox Co.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Radiator (fan) shroud",
+              "price": 300.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Airgas, Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Tappet",
+              "price": 300.29,
+              "quantity": 10,
+              "supplier": {
+                "name": "Atmel Corporation",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Radiator gasket",
+              "price": 140.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Level 3 Communications Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Door water-shield",
+              "price": 123.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Airgas, Inc.",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Hai Everton",
+    "birthDate": "1985-10-01",
+    "isYoungDriver": true,
+    "sales": [
+      {
+        "id": 32,
+        "discount": 0.2,
+        "car": {
+          "make": "Nissan",
+          "model": "Versa",
+          "travelledDistance": 2143647,
+          "parts": [
+            {
+              "name": "Rear Left Side Outer door handle",
+              "price": 120.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "The Clorox Co.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Rocker",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Cintas Corp.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Door water-shield",
+              "price": 123.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Airgas, Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Rear Left Side Door Glass",
+              "price": 100.66,
+              "quantity": 10,
+              "supplier": {
+                "name": "CNF Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Crank pulley",
+              "price": 2.80,
+              "quantity": 10,
+              "supplier": {
+                "name": "Saks Inc",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Lino Subia",
+    "birthDate": "1985-12-21",
+    "isYoungDriver": false,
+    "sales": [
+      {
+        "id": 45,
+        "discount": 0.5,
+        "car": {
+          "make": "Fiat",
+          "model": "500 (2007) Abarth 695 Tributo Maserati",
+          "travelledDistance": 214747,
+          "parts": [
+            {
+              "name": "Back Door Outer Door Handle",
+              "price": 43.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Atmel Corporation",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Rocker",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Cintas Corp.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Oil strainer",
+              "price": 45.29,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Rims",
+              "price": 4020.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Chubb Corp",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 72,
+        "discount": 0.1,
+        "car": {
+          "make": "Toyota",
+          "model": "Corolla",
+          "travelledDistance": 9223854775807,
+          "parts": [
+            {
+              "name": "Distributor cap",
+              "price": 9.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Nicor Inc",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Hinge",
+              "price": 11.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "The Clorox Co.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Front fascia",
+              "price": 11.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Olin Corp.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Rear Left Side Inner door handle",
+              "price": 93.99,
+              "quantity": 234,
+              "supplier": {
+                "name": "Saks Inc",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 8,
+        "discount": 0.3,
+        "car": {
+          "make": "Peugeot",
+          "model": "407",
+          "travelledDistance": 922036854775807,
+          "parts": [
+            {
+              "name": "Trunk/boot/hatch",
+              "price": 2200.99,
+              "quantity": 300,
+              "supplier": {
+                "name": "Zale",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Engine valve",
+              "price": 49.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "VF Corporation",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Water neck o-ring",
+              "price": 43.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "VF Corporation",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Center-locking",
+              "price": 313.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Agway Inc.",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 49,
+        "discount": 0.3,
+        "car": {
+          "make": "Chevy",
+          "model": "Caprice",
+          "travelledDistance": 2147483647,
+          "parts": [
+            {
+              "name": "Exhaust pipe",
+              "price": 130.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Zale",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Windshield",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E.I. Du Pont de Nemours and Company",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Door lock and power door locks",
+              "price": 120.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Wyeth",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Door control module",
+              "price": 421.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Casey\u0027s General Stores Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Differential seal",
+              "price": 109.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Wyeth",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Jimmy Grossi",
+    "birthDate": "1986-07-01",
+    "isYoungDriver": true,
+    "sales": [
+      {
+        "id": 57,
+        "discount": 0.05,
+        "car": {
+          "make": "Renault",
+          "model": "Captur",
+          "travelledDistance": 92233724775807,
+          "parts": [
+            {
+              "name": "Master cylinder",
+              "price": 130.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "3M Company",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Engine valve",
+              "price": 49.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "VF Corporation",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Rear Left Side Door Glass",
+              "price": 100.66,
+              "quantity": 10,
+              "supplier": {
+                "name": "CNF Inc.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "discount": 0.25,
+        "car": {
+          "make": "Fiat",
+          "model": "Panda",
+          "travelledDistance": 2147487,
+          "parts": [
+            {
+              "name": "Grille",
+              "price": 144.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "3M Company",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Camshaft",
+              "price": 100.98,
+              "quantity": 10,
+              "supplier": {
+                "name": "Merck \u0026 Co., Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Water pump pulley",
+              "price": 150.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Atmel Corporation",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Rocker cover",
+              "price": 10.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Level 3 Communications Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Engine",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Olin Corp.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "discount": 0.55,
+        "car": {
+          "make": "Lamborghini",
+          "model": "Murciélago",
+          "travelledDistance": 2143647,
+          "parts": [
+            {
+              "name": "Fascia",
+              "price": 100.34,
+              "quantity": 10,
+              "supplier": {
+                "name": "Emcor Group Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Window regulator",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Level 3 Communications Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Rear Left Side Door Glass",
+              "price": 100.66,
+              "quantity": 10,
+              "supplier": {
+                "name": "CNF Inc.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 1,
+        "discount": 0.2,
+        "car": {
+          "make": "Alfa Romeo",
+          "model": "Alfetta",
+          "travelledDistance": 92233720775807,
+          "parts": [
+            {
+              "name": "Exhaust flange gasket",
+              "price": 130.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Level 3 Communications Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Decklid",
+              "price": 1060.34,
+              "quantity": 11,
+              "supplier": {
+                "name": "Big Lots, Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Rear Right Side Door Glass",
+              "price": 100.90,
+              "quantity": 10,
+              "supplier": {
+                "name": "The Clorox Co.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Catalytic converter",
+              "price": 540.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Cintas Corp.",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 69,
+        "discount": 0.15,
+        "car": {
+          "make": "Mercedes",
+          "model": "W202",
+          "travelledDistance": 92233754775807,
+          "parts": [
+            {
+              "name": "Piston",
+              "price": 94.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Cintas Corp.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Engine block",
+              "price": 40.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Chubb Corp",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Clutch shoe",
+              "price": 10.49,
+              "quantity": 10,
+              "supplier": {
+                "name": "Paychex Inc",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Carole Witman",
+    "birthDate": "1987-10-01",
+    "isYoungDriver": false,
+    "sales": [
+      {
+        "id": 52,
+        "discount": 0.0,
+        "car": {
+          "make": "Citroen",
+          "model": "C8",
+          "travelledDistance": 2147447,
+          "parts": [
+            {
+              "name": "Water pipe",
+              "price": 44.94,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Resonator",
+              "price": 106.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Front Left Side Inner door handle",
+              "price": 77.99,
+              "quantity": 1032,
+              "supplier": {
+                "name": "The Clorox Co.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Fender",
+              "price": 10.34,
+              "quantity": 10,
+              "supplier": {
+                "name": "Merck \u0026 Co., Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Rear Left Side Door Glass",
+              "price": 100.66,
+              "quantity": 10,
+              "supplier": {
+                "name": "CNF Inc.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 60,
+        "discount": 0.2,
+        "car": {
+          "make": "Nissan",
+          "model": "Altima",
+          "travelledDistance": 9224775807,
+          "parts": [
+            {
+              "name": "Front clip",
+              "price": 100.00,
+              "quantity": 10,
+              "supplier": {
+                "name": "IDT Corporation",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Exhaust pipe",
+              "price": 130.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Zale",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Rocker",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Cintas Corp.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Hinge",
+              "price": 11.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "The Clorox Co.",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 70,
+        "discount": 0.15,
+        "car": {
+          "make": "Nissan",
+          "model": "GT-R",
+          "travelledDistance": 2147447,
+          "parts": [
+            {
+              "name": "Fan belt",
+              "price": 10.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Danaher Corporation",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Drive belt",
+              "price": 3.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Saks Inc",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Radiator pressure cap",
+              "price": 600.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Zale",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Oren Perlman",
+    "birthDate": "1988-10-01",
+    "isYoungDriver": true,
+    "sales": [
+      {
+        "id": 27,
+        "discount": 0.1,
+        "car": {
+          "make": "Fiat",
+          "model": "Freemont",
+          "travelledDistance": 214647,
+          "parts": [
+            {
+              "name": "Speed reducer",
+              "price": 14.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Caterpillar Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Heat shield",
+              "price": 10.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E.I. Du Pont de Nemours and Company",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Water neck o-ring",
+              "price": 43.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "VF Corporation",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Natalie Poli",
+    "birthDate": "1990-10-04",
+    "isYoungDriver": false,
+    "sales": [
+      {
+        "id": 85,
+        "discount": 0.3,
+        "car": {
+          "make": "Chevy",
+          "model": "Impala",
+          "travelledDistance": 214747,
+          "parts": [
+            {
+              "name": "Clutch shoe",
+              "price": 10.49,
+              "quantity": 10,
+              "supplier": {
+                "name": "Paychex Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Rear Left Side Inner door handle",
+              "price": 93.99,
+              "quantity": 234,
+              "supplier": {
+                "name": "Saks Inc",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Front Right Side Window motor",
+              "price": 44.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Merck \u0026 Co., Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Front Right Side Inner door handle",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E.I. Du Pont de Nemours and Company",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 14,
+        "discount": 0.2,
+        "car": {
+          "make": "Skoda",
+          "model": "Citigo",
+          "travelledDistance": 214647,
+          "parts": [
+            {
+              "name": "Fan blade",
+              "price": 150.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E*Trade Group, Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Fascia",
+              "price": 100.34,
+              "quantity": 10,
+              "supplier": {
+                "name": "Emcor Group Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Radiator bolt",
+              "price": 160.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Fuel pressure regulator",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Marcelle Griego",
+    "birthDate": "1990-10-04",
+    "isYoungDriver": true,
+    "sales": [
+      {
+        "id": 63,
+        "discount": 0.05,
+        "car": {
+          "make": "Skoda",
+          "model": "Rapid Spaceback",
+          "travelledDistance": 685477580,
+          "parts": [
+            {
+              "name": "Trim package",
+              "price": 1900.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Wyeth",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Rear Right Side Window motor",
+              "price": 22.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Sunoco Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Transmission gear",
+              "price": 15.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E.I. Du Pont de Nemours and Company",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Grille",
+              "price": 144.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "3M Company",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 9,
+        "discount": 0.35,
+        "car": {
+          "make": "Alfa Romeo",
+          "model": "75",
+          "travelledDistance": 9775807,
+          "parts": [
+            {
+              "name": "Front Left Side Window motor",
+              "price": 56.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Fuel pressure regulator",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Rear Left Quarter Glass",
+              "price": 100.55,
+              "quantity": 10,
+              "supplier": {
+                "name": "Caterpillar Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Differential clutch",
+              "price": 120.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E.I. Du Pont de Nemours and Company",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Yvonne Mccalla",
+    "birthDate": "1992-03-02",
+    "isYoungDriver": true,
+    "sales": [
+      {
+        "id": 50,
+        "discount": 0.15,
+        "car": {
+          "make": "Chevy",
+          "model": "Corvette",
+          "travelledDistance": 92233720375807,
+          "parts": [
+            {
+              "name": "Front Right Side Inner door handle",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E.I. Du Pont de Nemours and Company",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Rear Right Side Inner door handle",
+              "price": 79.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Nicor Inc",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Door lock and power door locks",
+              "price": 120.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Wyeth",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Radiator (fan) shroud",
+              "price": 300.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Airgas, Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Front Right Side Window motor",
+              "price": 44.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Merck \u0026 Co., Inc.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 31,
+        "discount": 0.45,
+        "car": {
+          "make": "Citroen",
+          "model": "C1",
+          "travelledDistance": 9854775807,
+          "parts": [
+            {
+              "name": "Front clip",
+              "price": 100.00,
+              "quantity": 10,
+              "supplier": {
+                "name": "IDT Corporation",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Water tank",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Sunoco Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Oil pump",
+              "price": 100.19,
+              "quantity": 10,
+              "supplier": {
+                "name": "Anthem, Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Fan clutch",
+              "price": 120.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "The Clorox Co.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Oil strainer",
+              "price": 45.29,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 24,
+        "discount": 0.45,
+        "car": {
+          "make": "Ford",
+          "model": "Fiesta",
+          "travelledDistance": 922807,
+          "parts": [
+            {
+              "name": "Radiator (fan) shroud",
+              "price": 300.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Airgas, Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Gudgeon pin",
+              "price": 44.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Caterpillar Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Master cylinder",
+              "price": 130.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "3M Company",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Muffler",
+              "price": 106.90,
+              "quantity": 10,
+              "supplier": {
+                "name": "Cintas Corp.",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 56,
+        "discount": 0.35,
+        "car": {
+          "make": "Nissan",
+          "model": "Altima",
+          "travelledDistance": 92233707,
+          "parts": [
+            {
+              "name": "Rocker cover",
+              "price": 10.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Level 3 Communications Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Front Left Side Door Glass",
+              "price": 100.92,
+              "quantity": 10,
+              "supplier": {
+                "name": "Wyeth",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Distributor",
+              "price": 7.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Saks Inc",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Ann Mcenaney",
+    "birthDate": "1992-03-02",
+    "isYoungDriver": true,
+    "sales": [
+      {
+        "id": 5,
+        "discount": 0.35,
+        "car": {
+          "make": "Renault",
+          "model": "Clio IV",
+          "travelledDistance": 2147483647,
+          "parts": [
+            {
+              "name": "Valve housing",
+              "price": 400.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Nicor Inc",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Rocker",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Cintas Corp.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Valve cover",
+              "price": 130.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Wyeth",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Front Left Side Outer door handle",
+              "price": 999.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Atmel Corporation",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Rear Left Side Window motor",
+              "price": 144.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Big Lots, Inc.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 16,
+        "discount": 0.15,
+        "car": {
+          "make": "Skoda",
+          "model": "Citigo",
+          "travelledDistance": 214747,
+          "parts": [
+            {
+              "name": "Water pipe",
+              "price": 44.94,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Front fascia",
+              "price": 11.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Olin Corp.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Windshield",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E.I. Du Pont de Nemours and Company",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Clutch shoe",
+              "price": 10.49,
+              "quantity": 10,
+              "supplier": {
+                "name": "Paychex Inc",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Cinthia Lasala",
+    "birthDate": "1992-11-01",
+    "isYoungDriver": true,
+    "sales": [
+      {
+        "id": 55,
+        "discount": 0.15,
+        "car": {
+          "make": "Nissan",
+          "model": "Altima",
+          "travelledDistance": 214647,
+          "parts": [
+            {
+              "name": "Coolant hose ",
+              "price": 150.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Olin Corp.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Center-locking",
+              "price": 313.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Agway Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Valve cover",
+              "price": 130.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Wyeth",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 51,
+        "discount": 0.35,
+        "car": {
+          "make": "Dacia",
+          "model": "Logan",
+          "travelledDistance": 9036854775807,
+          "parts": [
+            {
+              "name": "Roof rack",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Anthem, Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Front Right Outer door handle",
+              "price": 999.99,
+              "quantity": 345,
+              "supplier": {
+                "name": "Casey\u0027s General Stores Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Sunroof",
+              "price": 103.43,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Fan clutch",
+              "price": 120.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "The Clorox Co.",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 62,
+        "discount": 0.25,
+        "car": {
+          "make": "Citroen",
+          "model": "Elysée",
+          "travelledDistance": 922354775807,
+          "parts": [
+            {
+              "name": "Heat shield",
+              "price": 10.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E.I. Du Pont de Nemours and Company",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Valve housing",
+              "price": 400.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Nicor Inc",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Water tank",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Sunoco Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Valance",
+              "price": 1002.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "3M Company",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Emmitt Benally",
+    "birthDate": "1993-11-20",
+    "isYoungDriver": true,
+    "sales": [
+      {
+        "id": 21,
+        "discount": 0.05,
+        "car": {
+          "make": "Citroen",
+          "model": "C5",
+          "travelledDistance": 922337204775807,
+          "parts": [
+            {
+              "name": "Speed reducer",
+              "price": 14.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Caterpillar Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Rear Left Side Window motor",
+              "price": 144.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Big Lots, Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Exhaust clamp and bracket",
+              "price": 140.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Sunoco Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Rear Right Side Window motor",
+              "price": 22.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Sunoco Inc.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 41,
+        "discount": 0.15,
+        "car": {
+          "make": "Peugeot",
+          "model": "405",
+          "travelledDistance": 92236854775807,
+          "parts": [
+            {
+              "name": "Trim package",
+              "price": 1900.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Wyeth",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Poppet valve",
+              "price": 88.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Agway Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Rear Left Side Window motor",
+              "price": 144.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Big Lots, Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Hinge",
+              "price": 11.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "The Clorox Co.",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Nisha Markwell",
+    "birthDate": "1994-04-04",
+    "isYoungDriver": false,
+    "sales": [
+      {
+        "id": 18,
+        "discount": 0.05,
+        "car": {
+          "make": "Ford",
+          "model": "GT40",
+          "travelledDistance": 9223377,
+          "parts": [
+            {
+              "name": "Hinge",
+              "price": 11.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "The Clorox Co.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Choke cable",
+              "price": 130.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "3M Company",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Door seal",
+              "price": 444.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "CMGI Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Radiator (fan) shroud",
+              "price": 300.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Airgas, Inc.",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 67,
+        "discount": 0.05,
+        "car": {
+          "make": "Ferrari",
+          "model": "F430",
+          "travelledDistance": 92236854775807,
+          "parts": [
+            {
+              "name": "Engine shake damper and vibration absorber",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Emcor Group Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Door water-shield",
+              "price": 123.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Airgas, Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Fascia",
+              "price": 100.34,
+              "quantity": 10,
+              "supplier": {
+                "name": "Emcor Group Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Distributor",
+              "price": 7.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Saks Inc",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Grille",
+              "price": 144.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "3M Company",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Faustina Burgher",
+    "birthDate": "1994-06-01",
+    "isYoungDriver": false,
+    "sales": [
+      {
+        "id": 61,
+        "discount": 0.1,
+        "car": {
+          "make": "Citroen",
+          "model": "C8",
+          "travelledDistance": 83647,
+          "parts": [
+            {
+              "name": "Fuel pressure regulator",
+              "price": 100.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Water neck",
+              "price": 900.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "VF Corporation",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Overflow tank",
+              "price": 1200.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Cintas Corp.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Rear Right Quarter Glass",
+              "price": 100.66,
+              "quantity": 10,
+              "supplier": {
+                "name": "Big Lots, Inc.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 75,
+        "discount": 0.05,
+        "car": {
+          "make": "Seat",
+          "model": "Mii",
+          "travelledDistance": 21447,
+          "parts": [
+            {
+              "name": "Fuel filter",
+              "price": 162.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Agway Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Door seal",
+              "price": 444.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "CMGI Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Rear Left Side Window motor",
+              "price": 144.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Big Lots, Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Fender",
+              "price": 10.34,
+              "quantity": 10,
+              "supplier": {
+                "name": "Merck \u0026 Co., Inc.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 82,
+        "discount": 0.0,
+        "car": {
+          "make": "Seat",
+          "model": "Toledo",
+          "travelledDistance": 2147447,
+          "parts": [
+            {
+              "name": "Fan clutch",
+              "price": 120.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "The Clorox Co.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Clutch assembly",
+              "price": 120.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "CNF Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Fascia",
+              "price": 100.34,
+              "quantity": 10,
+              "supplier": {
+                "name": "Emcor Group Inc.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 54,
+        "discount": 0.2,
+        "car": {
+          "make": "Renault",
+          "model": "Captur",
+          "travelledDistance": 9223807,
+          "parts": [
+            {
+              "name": "Radiator bolt",
+              "price": 160.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Textron Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Fender",
+              "price": 10.34,
+              "quantity": 10,
+              "supplier": {
+                "name": "Merck \u0026 Co., Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Front Right Outer door handle",
+              "price": 999.99,
+              "quantity": 345,
+              "supplier": {
+                "name": "Casey\u0027s General Stores Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Rear Left Side Outer door handle",
+              "price": 120.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "The Clorox Co.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Clutch shoe",
+              "price": 10.49,
+              "quantity": 10,
+              "supplier": {
+                "name": "Paychex Inc",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Taina Achenbach",
+    "birthDate": "1994-10-01",
+    "isYoungDriver": false,
+    "sales": [
+      {
+        "id": 38,
+        "discount": 0.3,
+        "car": {
+          "make": "Opel",
+          "model": "Astra",
+          "travelledDistance": 922336854775807,
+          "parts": [
+            {
+              "name": "Fan blade",
+              "price": 150.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "E*Trade Group, Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Engine block",
+              "price": 40.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Chubb Corp",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Trim package",
+              "price": 1900.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Wyeth",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": 65,
+        "discount": 0.4,
+        "car": {
+          "make": "Fiat",
+          "model": "Panda 4x4 Antarctica",
+          "travelledDistance": 214747,
+          "parts": [
+            {
+              "name": "Front Right Side Window motor",
+              "price": 44.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Merck \u0026 Co., Inc.",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Sunroof Glass",
+              "price": 205.24,
+              "quantity": 10,
+              "supplier": {
+                "name": "Paychex Inc",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Door lock and power door locks",
+              "price": 120.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Wyeth",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Spoiler",
+              "price": 3000.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Danaher Corporation",
+                "isImporter": true
+              }
+            },
+            {
+              "name": "Speed reducer",
+              "price": 14.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Caterpillar Inc.",
+                "isImporter": false
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Johnette Derryberry",
+    "birthDate": "1995-10-01",
+    "isYoungDriver": true,
+    "sales": []
+  },
+  {
+    "id": 22,
+    "name": "Daniele Zarate",
+    "birthDate": "1995-10-05",
+    "isYoungDriver": false,
+    "sales": [
+      {
+        "id": 83,
+        "discount": 0.1,
+        "car": {
+          "make": "Opel",
+          "model": "Vectra",
+          "travelledDistance": 9223372854775807,
+          "parts": [
+            {
+              "name": "Catalytic converter",
+              "price": 540.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Cintas Corp.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Radiator gasket",
+              "price": 140.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Level 3 Communications Inc.",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Rear Right Side Inner door handle",
+              "price": 79.99,
+              "quantity": 10,
+              "supplier": {
+                "name": "Nicor Inc",
+                "isImporter": false
+              }
+            },
+            {
+              "name": "Exposed bumper",
+              "price": 1400.34,
+              "quantity": 10,
+              "supplier": {
+                "name": "CMGI Inc.",
+                "isImporter": true
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+]

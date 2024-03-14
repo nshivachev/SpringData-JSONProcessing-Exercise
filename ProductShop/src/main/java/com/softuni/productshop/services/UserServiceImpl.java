@@ -10,8 +10,8 @@ import org.springframework.stereotype.Service;
 import java.io.IOException;
 import java.util.List;
 
-import static com.softuni.productshop.constants.Paths.USERS_WITH_SOLD_PRODUCTS_JSON_PATH;
-import static com.softuni.productshop.constants.Paths.USERS_WITH_SOLD_PRODUCTS_WITH_BUYER_JSON_PATH;
+import static com.softuni.productshop.constants.Paths.USERS_OUTPUT_WITH_SOLD_PRODUCTS_JSON_PATH;
+import static com.softuni.productshop.constants.Paths.USERS_OUTPUT_WITH_SOLD_PRODUCTS_WITH_BUYER_JSON_PATH;
 import static com.softuni.productshop.constants.Utils.MODEL_MAPPER;
 import static com.softuni.productshop.constants.Utils.writeJsonIntoFile;
 
@@ -33,7 +33,7 @@ public class UserServiceImpl implements UserService {
                 .map(user -> MODEL_MAPPER.map(user, UserWithSellingProductsWithBuyerDto.class))
                 .toList();
 
-        writeJsonIntoFile(users, USERS_WITH_SOLD_PRODUCTS_WITH_BUYER_JSON_PATH);
+        writeJsonIntoFile(users, USERS_OUTPUT_WITH_SOLD_PRODUCTS_WITH_BUYER_JSON_PATH);
 
         return users;
     }
@@ -48,7 +48,7 @@ public class UserServiceImpl implements UserService {
 
         UserWrapperDto user = new UserWrapperDto((long) users.size(), users);
 
-        writeJsonIntoFile(user, USERS_WITH_SOLD_PRODUCTS_JSON_PATH);
+        writeJsonIntoFile(user, USERS_OUTPUT_WITH_SOLD_PRODUCTS_JSON_PATH);
 
         return user;
     }

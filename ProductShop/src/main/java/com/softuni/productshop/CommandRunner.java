@@ -27,13 +27,12 @@ public class CommandRunner implements CommandLineRunner {
     }
 
     @Override
-    @Transactional
     public void run(String... args) throws Exception {
         seedService.seedAll();
 
-        productService.selectAllProductsInPriceRange(BigDecimal.valueOf(500L), BigDecimal.valueOf(1000L));
-        userService.findAllUsersBySellingProductsWithBuyer();
-        categoryService.getCategorySummary();
-        userService.findAllUsersBySellingProductsWithBuyerOrderByProductCount();
+//        productService.selectAllProductsInPriceRange(BigDecimal.valueOf(500L), BigDecimal.valueOf(1000L));
+//        userService.findAllUsersBySellingProductsWithBuyer();
+//        categoryService.getCategorySummary();
+//        userService.findAllUsersBySellingProductsWithBuyerOrderByProductCount();
     }
 }

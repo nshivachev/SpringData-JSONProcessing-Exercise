@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 import java.io.IOException;
 import java.util.List;
 
-import static com.softuni.productshop.constants.Paths.CATEGORIES_BY_PRODUCTS_JSON_PATH;
+import static com.softuni.productshop.constants.Paths.CATEGORIES_OUTPUT_BY_PRODUCTS_JSON_PATH;
 
 @Service
 public class CategoryServiceImpls implements CategoryService {
@@ -24,7 +24,7 @@ public class CategoryServiceImpls implements CategoryService {
     public List<CategoryProductSummaryDto> getCategorySummary() throws IOException {
         List<CategoryProductSummaryDto> categories = categoryRepository.getCategorySummary();
 
-        Utils.writeJsonIntoFile(categories, CATEGORIES_BY_PRODUCTS_JSON_PATH);
+        Utils.writeJsonIntoFile(categories, CATEGORIES_OUTPUT_BY_PRODUCTS_JSON_PATH);
 
         return categories;
     }

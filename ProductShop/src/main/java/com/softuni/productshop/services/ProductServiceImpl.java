@@ -10,7 +10,7 @@ import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.List;
 
-import static com.softuni.productshop.constants.Paths.PRODUCTS_WITH_NO_BUYER_IN_RANGE_JSON_PATH;
+import static com.softuni.productshop.constants.Paths.PRODUCTS_OUTPUT_WITH_NO_BUYER_IN_RANGE_JSON_PATH;
 import static com.softuni.productshop.constants.Utils.writeJsonIntoFile;
 
 @Service
@@ -27,7 +27,7 @@ public class ProductServiceImpl implements ProductService {
     public List<ProductWithNamePriceSellerDto> selectAllProductsInPriceRange(BigDecimal startPrice, BigDecimal endPrice) throws IOException {
         final List<ProductWithNamePriceSellerDto> products = productRepository.findAllInPriceRangeBetween(startPrice, endPrice);
 
-        writeJsonIntoFile(products, PRODUCTS_WITH_NO_BUYER_IN_RANGE_JSON_PATH);
+        writeJsonIntoFile(products, PRODUCTS_OUTPUT_WITH_NO_BUYER_IN_RANGE_JSON_PATH);
 
         return products;
     }
