@@ -70,37 +70,6 @@ public class SeedServicesImpl implements SeedService {
     }
 
     @Override
-    public void seedProducts() throws IOException, JAXBException {
-        if (productRepository.count() != 0) return;
-
-//        final FileReader fileReader = new FileReader(PRODUCTS_INPUT_JSON_PATH.toFile());
-//
-//        productRepository.saveAllAndFlush(Arrays.stream(GSON.fromJson(fileReader, ImportProductDto[].class))
-//                .map(productDto -> MODEL_MAPPER.map(productDto, Product.class))
-//                .map(this::setRandomSeller)
-//                .map(this::setRandomBuyer)
-//                .map(this::setRandomCategories)
-//                .toList());
-
-        final FileReader fileReader = new FileReader(PRODUCTS_INPUT_XML_PATH.toFile());
-
-        final JAXBContext context = JAXBContext.newInstance(ImportProductXmlDto.class);
-        final Unmarshaller unmarshaller = context.createUnmarshaller();
-
-        final ImportProductWrapperXmlDto productsDto = (ImportProductWrapperXmlDto) unmarshaller.unmarshal(fileReader);
-
-        productRepository.saveAllAndFlush(
-                productsDto.getProducts().stream()
-                        .map(productDto -> MODEL_MAPPER.map(productDto, Product.class))
-                        .map(this::setRandomSeller)
-                        .map(this::setRandomBuyer)
-                        .map(this::setRandomCategories)
-                        .toList());
-
-        fileReader.close();
-    }
-
-    @Override
     public void seedCategories() throws IOException, JAXBException {
         if (categoryRepository.count() != 0) return;
 
@@ -122,6 +91,37 @@ public class SeedServicesImpl implements SeedService {
                 categoriesDto.getCategories()
                         .stream()
                         .map(categoryDto -> MODEL_MAPPER.map(categoryDto, Category.class))
+                        .toList());
+
+        fileReader.close();
+    }
+
+    @Override
+    public void seedProducts() throws IOException, JAXBException {
+        if (productRepository.count() != 0) return;
+
+//        final FileReader fileReader = new FileReader(PRODUCTS_INPUT_JSON_PATH.toFile());
+//
+//        productRepository.saveAllAndFlush(Arrays.stream(GSON.fromJson(fileReader, ImportProductDto[].class))
+//                .map(productDto -> MODEL_MAPPER.map(productDto, Product.class))
+//                .map(this::setRandomSeller)
+//                .map(this::setRandomBuyer)
+//                .map(this::setRandomCategories)
+//                .toList());
+
+        final FileReader fileReader = new FileReader(PRODUCTS_INPUT_XML_PATH.toFile());
+
+        final JAXBContext context = JAXBContext.newInstance(ImportProductWrapperXmlDto.class);
+        final Unmarshaller unmarshaller = context.createUnmarshaller();
+
+        final ImportProductWrapperXmlDto productsDto = (ImportProductWrapperXmlDto) unmarshaller.unmarshal(fileReader);
+
+        productRepository.saveAllAndFlush(
+                productsDto.getProducts().stream()
+                        .map(productDto -> MODEL_MAPPER.map(productDto, Product.class))
+                        .map(this::setRandomSeller)
+                        .map(this::setRandomBuyer)
+                        .map(this::setRandomCategories)
                         .toList());
 
         fileReader.close();
