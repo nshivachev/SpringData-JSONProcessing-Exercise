@@ -4,7 +4,6 @@ import com.softuni.productshop.services.CategoryService;
 import com.softuni.productshop.services.ProductService;
 import com.softuni.productshop.services.SeedService;
 import com.softuni.productshop.services.UserService;
-import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -30,9 +29,11 @@ public class CommandRunner implements CommandLineRunner {
     public void run(String... args) throws Exception {
         seedService.seedAll();
 
-//        productService.selectAllProductsInPriceRange(BigDecimal.valueOf(500L), BigDecimal.valueOf(1000L));
-//        userService.findAllUsersBySellingProductsWithBuyer();
-//        categoryService.getCategorySummary();
-//        userService.findAllUsersBySellingProductsWithBuyerOrderByProductCount();
+        productService.selectAllProductsInPriceRange(BigDecimal.valueOf(500L), BigDecimal.valueOf(1000L));
+        userService.findAllUsersBySellingProductsWithBuyer();
+        categoryService.getCategorySummary();
+        userService.findAllUsersBySellingProductsWithBuyerOrderByProductCount();
+
+        productService.selectAllProductsInPriceRangeXml(BigDecimal.valueOf(500L), BigDecimal.valueOf(1000L));
     }
 }

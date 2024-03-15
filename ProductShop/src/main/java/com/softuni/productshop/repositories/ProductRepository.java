@@ -1,6 +1,7 @@
 package com.softuni.productshop.repositories;
 
 import com.softuni.productshop.domain.dtos.products.ProductWithNamePriceSellerDto;
+import com.softuni.productshop.domain.dtos.products.ProductWithNamePriceSellerXmlDto;
 import com.softuni.productshop.domain.entities.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
@@ -16,4 +17,10 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
             "where p.price between :startPrice and :endPrice and p.buyer is null " +
             "order by p.price asc")
     List<ProductWithNamePriceSellerDto> findAllInPriceRangeBetween(BigDecimal startPrice, BigDecimal endPrice);
+
+    @Query("select new com.softuni.productshop.domain.dtos.products.ProductWithNamePriceSellerXmlDto(p.name, p.price, concat(p.seller.firstName, ' ', p.seller.lastName)) " +
+            "from Product p " +
+            "where p.price between :startPrice and :endPrice and p.buyer is null " +
+            "order by p.price asc")
+    List<ProductWithNamePriceSellerXmlDto> findAllInPriceRangeBetweenXml(BigDecimal startPrice, BigDecimal endPrice);
 }
