@@ -44,7 +44,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public UserWithSoldProductsWrapperXmlDto findAllUsersBySellingProductsWithBuyerXml() throws IOException, JAXBException {
+    public UserWithSoldProductsWrapperXmlDto findAllUsersBySellingProductsWithBuyerXml() throws JAXBException {
         UserWithSoldProductsWrapperXmlDto users = new UserWithSoldProductsWrapperXmlDto(userRepository
                 .findAllBySellingProductsBuyerIsNotNullOrderByLastName()
                 .stream()
