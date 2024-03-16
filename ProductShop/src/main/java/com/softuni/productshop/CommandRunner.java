@@ -35,5 +35,6 @@ public class CommandRunner implements CommandLineRunner {
         userService.findAllUsersBySellingProductsWithBuyerOrderByProductCount();
 
         productService.selectAllProductsInPriceRangeXml(BigDecimal.valueOf(500L), BigDecimal.valueOf(1000L));
+        userService.findAllUsersBySellingProductsWithBuyerXml();
     }
 }
