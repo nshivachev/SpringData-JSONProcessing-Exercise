@@ -7,10 +7,7 @@ import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
-import java.io.File;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.util.List;
@@ -18,6 +15,7 @@ import java.util.List;
 import static com.softuni.productshop.constants.Paths.PRODUCTS_OUTPUT_WITH_NO_BUYER_IN_RANGE_JSON_PATH;
 import static com.softuni.productshop.constants.Paths.PRODUCTS_OUTPUT_WITH_NO_BUYER_IN_RANGE_XML_PATH;
 import static com.softuni.productshop.constants.Utils.writeJsonIntoFile;
+import static com.softuni.productshop.constants.Utils.writeXmlIntoFile;
 
 @Service
 public class ProductServiceImpl implements ProductService {
@@ -44,14 +42,7 @@ public class ProductServiceImpl implements ProductService {
         final ProductWithNamePriceSellerWrapperXmlDto products =
                 new ProductWithNamePriceSellerWrapperXmlDto(productRepository.findAllInPriceRangeBetweenXml(startPrice, endPrice));
 
-        final File file = PRODUCTS_OUTPUT_WITH_NO_BUYER_IN_RANGE_XML_PATH.toFile();
-
-        final JAXBContext context = JAXBContext.newInstance(ProductWithNamePriceSellerWrapperXmlDto.class);
-        final Marshaller marshaller = context.createMarshaller();
-
-        marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
-
-        marshaller.marshal(products, file);
+        writeXmlIntoFile(products, PRODUCTS_OUTPUT_WITH_NO_BUYER_IN_RANGE_XML_PATH);
 
         return products;
     }

@@ -1,24 +1,18 @@
 package com.softuni.productshop.services;
 
-import com.softuni.productshop.domain.dtos.users.UserWithSellingProductsDto;
-import com.softuni.productshop.domain.dtos.users.UserWithSellingProductsWithBuyerDto;
-import com.softuni.productshop.domain.dtos.users.UserWithSoldProductsXmlDto;
-import com.softuni.productshop.domain.dtos.users.UserWrapperDto;
+import com.softuni.productshop.domain.dtos.users.*;
 import com.softuni.productshop.domain.dtos.users.xmlWrappers.UserWithSoldProductsWrapperXmlDto;
+import com.softuni.productshop.domain.dtos.users.xmlWrappers.UserWithUserCountWithSoldProductsWrapperXmlDto;
 import com.softuni.productshop.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
-import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
 import static com.softuni.productshop.constants.Paths.*;
-import static com.softuni.productshop.constants.Utils.MODEL_MAPPER;
-import static com.softuni.productshop.constants.Utils.writeJsonIntoFile;
+import static com.softuni.productshop.constants.Utils.*;
 
 @Service
 public class UserServiceImpl implements UserService {
@@ -51,14 +45,7 @@ public class UserServiceImpl implements UserService {
                 .map(user -> MODEL_MAPPER.map(user, UserWithSoldProductsXmlDto.class))
                 .toList());
 
-        final File file = USERS_OUTPUT_WITH_SOLD_PRODUCTS_WITH_BUYER_XML_PATH.toFile();
-
-        final JAXBContext context = JAXBContext.newInstance(UserWithSoldProductsWrapperXmlDto.class);
-        final Marshaller marshaller = context.createMarshaller();
-
-        marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
-
-        marshaller.marshal(users, file);
+        writeXmlIntoFile(users, USERS_OUTPUT_WITH_SOLD_PRODUCTS_WITH_BUYER_XML_PATH);
 
         return users;
     }
@@ -69,6 +56,13 @@ public class UserServiceImpl implements UserService {
                 .findAllBySellingProductsOrderByProductCount()
                 .stream()
                 .map(user -> MODEL_MAPPER.map(user, UserWithSellingProductsDto.class))
+                .sorted((u1, u2) -> {
+                    if (u1.getSellingProducts().size() == u2.getSellingProducts().size()) {
+                        return u1.getLastName().compareTo(u2.getLastName());
+                    }
+
+                    return u1.getSellingProducts().size() > u2.getSellingProducts().size() ? -1 : 1;
+                })
                 .toList();
 
         UserWrapperDto user = new UserWrapperDto((long) users.size(), users);
@@ -76,5 +70,28 @@ public class UserServiceImpl implements UserService {
         writeJsonIntoFile(user, USERS_OUTPUT_WITH_SOLD_PRODUCTS_JSON_PATH);
 
         return user;
+    }
+
+    @Override
+    public UserWithUserCountWithSoldProductsWrapperXmlDto findAllUsersBySellingProductsWithBuyerOrderByProductCountXml() throws IOException, JAXBException {
+        UserWithUserCountWithSoldProductsWrapperXmlDto users = new UserWithUserCountWithSoldProductsWrapperXmlDto(userRepository
+                .findAllBySellingProductsOrderByProductCount()
+                .stream()
+                .map(user -> MODEL_MAPPER.map(user, UserWithAgeWithSoldProductsXmlDto.class))
+                .map(UserWithAgeWithSoldProductsXmlDto::setSellingProductsCount)
+                .sorted((u1, u2) -> {
+                    int result = u2.getSellingProducts().getCount().compareTo(u1.getSellingProducts().getCount());
+
+                    if (result == 0) {
+                        return u1.getLastName().compareTo(u2.getLastName());
+                    }
+
+                    return result;
+                })
+                .toList());
+
+        writeXmlIntoFile(users, USERS_OUTPUT_WITH_SOLD_PRODUCTS_XML_PATH);
+
+        return users;
     }
 }

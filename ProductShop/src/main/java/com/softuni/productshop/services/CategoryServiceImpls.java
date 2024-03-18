@@ -8,16 +8,14 @@ import com.softuni.productshop.repositories.CategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
-import javax.xml.bind.Marshaller;
-import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
 import static com.softuni.productshop.constants.Paths.CATEGORIES_OUTPUT_BY_PRODUCTS_JSON_PATH;
 import static com.softuni.productshop.constants.Paths.CATEGORIES_OUTPUT_BY_PRODUCTS_XML_PATH;
 import static com.softuni.productshop.constants.Utils.MODEL_MAPPER;
+import static com.softuni.productshop.constants.Utils.writeXmlIntoFile;
 
 @Service
 public class CategoryServiceImpls implements CategoryService {
@@ -45,14 +43,7 @@ public class CategoryServiceImpls implements CategoryService {
                         .map(category -> MODEL_MAPPER.map(category, CategoryProductSummaryXmlDto.class))
                         .toList());
 
-        final File file = CATEGORIES_OUTPUT_BY_PRODUCTS_XML_PATH.toFile();
-
-        final JAXBContext context = JAXBContext.newInstance(CategoryProductSummaryWrapperXmlDto.class);
-        final Marshaller marshaller = context.createMarshaller();
-
-        marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
-
-        marshaller.marshal(categories, file);
+        writeXmlIntoFile(categories, CATEGORIES_OUTPUT_BY_PRODUCTS_XML_PATH);
 
         return categories;
     }
