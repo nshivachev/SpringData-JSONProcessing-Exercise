@@ -1,7 +1,7 @@
 package com.softuni.productshop.services;
 
 import com.softuni.productshop.domain.dtos.categories.CategoryProductSummaryDto;
-import com.softuni.productshop.domain.dtos.categories.xmlWrapper.CategoryProductSummaryWrapperXmlDto;
+import com.softuni.productshop.domain.dtos.categories.xmlWrappers.CategoryProductSummaryWrapperXmlDto;
 
 import javax.xml.bind.JAXBException;
 import java.io.IOException;

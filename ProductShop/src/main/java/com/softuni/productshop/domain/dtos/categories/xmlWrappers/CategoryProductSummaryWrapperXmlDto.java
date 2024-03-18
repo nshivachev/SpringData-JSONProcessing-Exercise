@@ -1,4 +1,4 @@
-package com.softuni.productshop.domain.dtos.categories.xmlWrapper;
+package com.softuni.productshop.domain.dtos.categories.xmlWrappers;
 
 import com.softuni.productshop.domain.dtos.categories.CategoryProductSummaryXmlDto;
 import lombok.AllArgsConstructor;

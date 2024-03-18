@@ -3,7 +3,7 @@ package com.softuni.productshop.services;
 import com.softuni.productshop.constants.Utils;
 import com.softuni.productshop.domain.dtos.categories.CategoryProductSummaryDto;
 import com.softuni.productshop.domain.dtos.categories.CategoryProductSummaryXmlDto;
-import com.softuni.productshop.domain.dtos.categories.xmlWrapper.CategoryProductSummaryWrapperXmlDto;
+import com.softuni.productshop.domain.dtos.categories.xmlWrappers.CategoryProductSummaryWrapperXmlDto;
 import com.softuni.productshop.repositories.CategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

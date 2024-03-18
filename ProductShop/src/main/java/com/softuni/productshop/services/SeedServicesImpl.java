@@ -1,7 +1,7 @@
 package com.softuni.productshop.services;
 
 import com.softuni.productshop.domain.dtos.categories.ImportCategoryDto;
-import com.softuni.productshop.domain.dtos.categories.xmlWrapper.ImportCategoryWrapperXmlDto;
+import com.softuni.productshop.domain.dtos.categories.xmlWrappers.ImportCategoryWrapperXmlDto;
 import com.softuni.productshop.domain.dtos.products.ImportProductDto;
 import com.softuni.productshop.domain.dtos.products.ImportProductXmlDto;
 import com.softuni.productshop.domain.dtos.products.xmlWrappers.ImportProductWrapperXmlDto;
