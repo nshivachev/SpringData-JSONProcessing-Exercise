@@ -30,4 +30,15 @@ public class CustomerWithNameAndSalesDto {
 
         return new CustomerWrapperDto(name, (long) sales.size(), spentMoney.setScale(2, RoundingMode.HALF_UP));
     }
+
+    public CustomerWithSpentMoneyXmlDto toCustomerWithSpentMoneyXmlDto() {
+        List<BigDecimal> partsPrices = new ArrayList<>();
+
+        sales.forEach(sale -> sale.getCar().getParts()
+                .forEach(part -> partsPrices.add(part.getPrice().add(part.getPrice().multiply(BigDecimal.valueOf(sale.getDiscount()))))));
+
+        BigDecimal spentMoney = partsPrices.stream().reduce(BigDecimal.ZERO, BigDecimal::add);
+
+        return new CustomerWithSpentMoneyXmlDto(name, (long) sales.size(), spentMoney.setScale(2, RoundingMode.HALF_UP));
+    }
 }

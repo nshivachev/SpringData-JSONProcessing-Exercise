@@ -21,4 +21,8 @@ public class CarWithPartsWithNameAndPriceDto {
     public ImportCarDto toImportCarDto() {
         return new ImportCarDto(make, model, travelledDistance);
     }
+
+    public CarWithMakeAndModelAndDistanceXmlDto toCarWithMakeAndModelAndDistanceXmlDto() {
+        return new CarWithMakeAndModelAndDistanceXmlDto(make, model, travelledDistance);
+    }
 }

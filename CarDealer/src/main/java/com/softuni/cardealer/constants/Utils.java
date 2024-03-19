@@ -3,6 +3,10 @@ package com.softuni.cardealer.constants;
 import com.google.gson.*;
 import org.modelmapper.ModelMapper;
 
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Path;
@@ -21,12 +25,23 @@ public enum Utils {
             .setPrettyPrinting()
             .create();
 
-    public static void writeJsonIntoFile(List<?> objects, Path filePath) throws IOException {
+    public static <T> void writeJsonIntoFile(List<T> objects, Path filePath) throws IOException {
         final FileWriter fileWriter = new FileWriter(filePath.toFile());
 
         GSON.toJson(objects, fileWriter);
 
         fileWriter.flush();
         fileWriter.close();
+    }
+
+    public static <T> void writeXmlIntoFile(T object, Path filePath) throws JAXBException {
+        final File file = filePath.toFile();
+
+        final JAXBContext context = JAXBContext.newInstance(object.getClass());
+        final Marshaller marshaller = context.createMarshaller();
+
+        marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
+
+        marshaller.marshal(object, file);
     }
 }

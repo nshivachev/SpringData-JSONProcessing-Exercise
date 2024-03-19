@@ -32,5 +32,12 @@ public class CommandRunner implements CommandLineRunner {
         carService.findAllWithPartsWithNameAndPrice();
         customerService.findAllBySalesIsNotEmpty();
         saleService.findAllWithCarCustomerPrice();
+
+        customerService.findAllOrderByBirthDateThenOrderByYoungerDriverXml();
+        carService.findAllByMakeOrderByModelAscThenOrderByTravelledDistanceDescXml("Toyota");
+        supplierService.findAllByImporterIsFalseXml();
+        carService.findAllWithPartsWithNameAndPriceXml();
+        customerService.findAllBySalesIsNotEmptyXml();
+        saleService.findAllWithCarCustomerPriceXml();
     }
 }

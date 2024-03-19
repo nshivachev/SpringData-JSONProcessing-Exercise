@@ -28,4 +28,14 @@ public class SaleWithDiscountAndCarAndCustomerDto {
 
         return new SaleWrapperDto(car.toImportCarDto(), customer.getName(), discount, price, priceWithDiscount);
     }
+
+    public SaleWithPriceAndDiscountXmlDto toSaleWithPriceAndDiscountXmlDto() {
+        BigDecimal price = car.getParts().stream()
+                .map(PartWithNameAndPriceDto::getPrice)
+                .reduce(BigDecimal.ZERO, BigDecimal::add);
+
+        BigDecimal priceWithDiscount = price.add(price.multiply(BigDecimal.valueOf(discount)));
+
+        return new SaleWithPriceAndDiscountXmlDto(car.toCarWithMakeAndModelAndDistanceXmlDto(), customer.getName(), discount, price, priceWithDiscount);
+    }
 }
